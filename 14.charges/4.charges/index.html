@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet"
+        href="charges.css" />
+
+</head>
+
+<body>
+    <section class="max[]">
+        <nav class="flex fixed top-0 w-full justify-around items-center mx24 header max-md:justify-between">
+            <div class="logo">
+                <img src="./assests/finallogo.svg"
+                    alt="j" />
+            </div>
+
+            <div class="items mt-2">
+                <ul class="list flex mt6">
+                    <li class="item">About</li>
+                    <li class="item">Product</li>
+                    <li class="item">Pricing</li>
+                    <li class="item">Media</li>
+                    <li class="item">Support</li>
+                </ul>
+            </div>
+
+
+            <center class="serchicon">
+                <img class="-ml10 mt-3 serchicin"
+                    src="./assests/search.svg"
+                    alt="">
+            </center>
+
+            <div class="serachs -ml-20 max-[1100px]:ml-0">
+                <div class="flex items-center justify-center">
+                    <input type="text"
+                        id="searchInput"
+                        placeholder="Search..." />
+                    <img class="-ml-10 mt-3"
+                        src="./assests/search.svg"
+                        alt="">
+                </div>
+
+                <div class="bg-black"
+                    id="searchResults"></div>
+            </div>
+
+            <div class="login_btn mt-3">
+                <button class="login -ml-24  max-[1100px]:ml-0">
+                    Sign Up
+                </button>
+            </div>
+
+            <div class="hamburg mt-3"
+                id="hamburg">
+                <img src="./assests/hamburger.svg"
+                    alt="">
+            </div>
+        </nav>
+    </section>
+    <div class="maincontainerbox">
+
+        <div class="firstbox">
+            <h1 class="pt-16">List of charges</h1>
+        </div>
+        <div class="containr">
+            <div class="tablebox">
+                <div class="grid">
+                    <div class="grid-item1 custom-bg-color">Charges</div>
+                    <div class="grid-item1  custom-bg-color">Brokerage</div>
+                    <div class="grid-item1  custom-bg-color">STT/CTT</div>
+                    <div class="grid-item1  custom-bg-color">Exchange Transaction Charges Rs. Per Cr.</div>
+                    <div class="grid-item1  custom-bg-color">Stamp Duty
+                        W.E.F 01-Jul-2020</div>
+                    <div class="grid-item1  custom-bg-color">SEBI Charges
+                        Rs.Per Cr.</div>
+                    <div class="grid-item1  custom-bg-color">SEBI Charges
+                        Rs.Per Cr.</div>
+                    <div class="grid-item1  custom-bg-color">GST</div>
+
+                    <div class="grid-item">Equity Delivery</div>
+                    <div class="grid-item">0.1% or Rs. 20/ Order whichever is lo</div>
+                    <div class="grid-item">0.1% on both Buy and Sell</div>
+                    <div class="grid-item">NSE: 325
+                        BSE: 375</div>
+                    <div class="grid-item">0.015% on Buyer Rs.1500 per Cr</div>
+                    <div class="grid-item leaveb lessheght"></div>
+                    <div class="grid-item leaveb lessheght"></div>
+                    <div class="grid-item leaveb lessheght"></div>
+
+                    <div class="grid-item custom-bg-color1">Equity Intraday</div>
+                    <div class="grid-item custom-bg-color1">0.05% or Rs. 20/ Order whichever is lower</div>
+                    <div class="grid-item custom-bg-color1">0.025% on the Sell Side</div>
+                    <div class="grid-item custom-bg-color1">NSE: 325
+                        BSE: 375</div>
+                    <div class="grid-item custom-bg-color1">0.003% on Buyer Rs.300 Per Cr1</div>
+                     <div class="grid-item custom-bg-color1 leaveb lessheght"></div>
+                     <div class="grid-item custom-bg-color1 leaveb lessheght"></div>
+                     <div class="grid-item custom-bg-color1 leaveb lessheght"></div>
+
+
+                    <div class="grid-item">Equity Futures</div>
+                    <div class="grid-item">0.05% or Rs. 20/ Order whichever is lower</div>
+                    <div class="grid-item">0.0125% on the Sell Side</div>
+                    <div class="grid-item">NSE: 190</div>
+                    <div class="grid-item">0.002% on Buyer Rs.200 per</div>
+                    <div class="grid-item leaveb lessheght"></div>
+                    <div class="grid-item leaveb lessheght"></div>
+                    <div class="grid-item leaveb lessheght"></div>
+
+                    <div class="grid-item custom-bg-color1">Equity Options*</div>
+                    <div class="grid-item custom-bg-color1">Rs. 20/ Executed Order</div>
+                    <div class="grid-item custom-bg-color1">0.0625% on the Sell Side</div>
+                    <div class="grid-item custom-bg-color1">NSE: 5000</div>
+                    <div class="grid-item custom-bg-color1">0.003% on Buyer Rs.300 Per Cr</div>
+                     <div class="grid-item custom-bg-color1 leaveb lessheght"></div>
+                     <div class="grid-item custom-bg-color1 leaveb lessheght"></div>
+                     <div class="grid-item custom-bg-color1 leaveb lessheght"></div>
+
+
+                    <div class="grid-item">Currencies Futures</div>
+                    <div class="grid-item">0.05% or Rs. 20/ Order whichever is lower</div>
+                    <div class="grid-item">Nil STT</div>
+                    <div class="grid-item">NSE: 90</div>
+                    <div class="grid-item">0.0001% on Buyer Rs.10 Per Cr</div>
+                    <div class="grid-item leaveb lessheght"> 10</div>
+                    <div class="grid-item leaveb lessheght"> NSE: Equity Segment & Equity Future RS.10
+                        NSE : Equity Option Rs. 50
+                    </div>
+                    <div class="grid-item leaveb lessheght">@80% on Brokerage , Exchange Transaction Charges and SEBI Fees</div>
+
+
+                    <div class="grid-item custom-bg-color1">Currencies Options*</div>
+                    <div class="grid-item custom-bg-color1">Rs. 20/ Executed Order</div>
+                    <div class="grid-item custom-bg-color1">Nil STT</div>
+                    <div class="grid-item custom-bg-color1">NSE: 3500</div>
+                    <div class="grid-item custom-bg-color1">0.0001% on Buyer Rs. 10 Per Cr</div>
+                    <div class="grid-item custom-bg-color1 leaveb lessheght"></div>
+                     <div class="grid-item custom-bg-color1 leaveb lessheght"></div>
+                     <div class="grid-item custom-bg-color1 leaveb lessheght"></div>
+
+
+                    <div class="grid-item">Commodities</div>
+                    <div class="grid-item">0.05% or Rs. 20/ Order whichever is lower</div>
+                    <div class="grid-item">0.01% On Sell Side</div>
+                    <div class="grid-item">MCX: 260</div>
+                    <div class="grid-item">0.002% on Buyer Rs.200 per Cr</div>
+                    <div class="grid-item leaveb lessheght"></div>
+                    <div class="grid-item leaveb lessheght"></div>
+                    <div class="grid-item leaveb lessheght"></div>
+
+
+                    <div class="grid-item custom-bg-color1">Commodities Options</div>
+                    <div class="grid-item custom-bg-color1">Rs. 20/ Executed Order</div>
+                    <div class="grid-item custom-bg-color1">0.05% On Sell Side</div>
+                    <div class="grid-item custom-bg-color1">MCX: 5000</div>
+                    <div class="grid-item custom-bg-color1">0.003% on Buyer Rs.300 per Cr</div>
+                     <div class="grid-item custom-bg-color1 leaveb lessheght"></div>
+                     <div class="grid-item custom-bg-color1 leaveb lessheght"></div>
+                     <div class="grid-item custom-bg-color1 leaveb lessheght"></div>
+
+                </div>
+            </div>
+        </div>
+        <div class="thirdbox">
+            <h1>Note on charges</h1>
+        </div>
+        <div class="fourthbox px-40">
+            <div class="fourthtext">
+                <h1>Securities Transaction Tax (STT) / Commodities Transaction Tax (CTT)</h1>
+                <p>STT is the tax levied by the Government when transacting on the securities market through any of the
+                    stock exchanges. It is levied on both “Buy” and “Sell” side when trading results in delivery and
+                    only on sell side when trading does not result in Delivery (like intraday or in F&O). Trading in
+                    currency segment is exempt from STT.CTT is levied by the Government when transacting in the
+                    commodities market again only on the sell side.</p>
+            </div>
+            <div class="fourthtext">
+                <h1>Exchange Transaction Charges</h1>
+                <p>Exchange Transaction charges are levied by Exchanges on the traded volume of the customer. This is
+                    generally specified in terms of rupees per Crore of Turnover.Please note that BSE charges higher
+                    transaction charges separately for various groups of securities (P, R, X and Z group XC, XD, XT, Z
+                    and ZP).</p>
+            </div>
+            <div class="fourthtext">
+                <h1>GST</h1>
+                <p>Tax levied by the government on the services rendered is calculated presently @ 18% on brokerage,
+                    transaction charges, SEBI Fees and any other charges for services rendered by broker or exchange.
+                </p>
+            </div>
+            <div class="fourthtext">
+                <h1>SEBI Charges</h1>
+                <p>The SEBI charges is calculated presently @ Rs. 10 per crore (w.e.f. 01.06.2021) for both intraday and
+                    delivery trades on the traded volume of the customer in all segments.</p>
+            </div>
+            <div class="fourthtext">
+                <h1>IPFT Charges</h1>
+                <p>The IPFT charges is calculated @ Rs. 10 per crore of the traded value in NSE Equity Segment & Equity
+                    Futures and @ Rs. 50 per crore of the traded value in NSE Equity Options (w.e.f.01.04.2023).</p>
+            </div>
+            <div class="fourthtext">
+                <h1>Stamp charges</h1>
+                <p>As per Government Notification (CG-DL-E-30032020-218954) dated 30th March 2020, the implementation of
+                    Unified Stamp Duty is effective 01st of July 2020 replacing the existing state wise levy …read more.
+                </p>
+            </div>
+            <div class="fourthtext">
+                <h1>Call-n-Trade Charges</h1>
+                <p>A nominal amount of Rs. 20 + GST is charged extra per executed order placed through our dealing desk
+                    & Intraday (MIS) positions squared by our RMS team.</p>
+            </div>
+            <div class="fourthtext">
+                <h1>DP (Depository participant) charges</h1>
+                <p>AMC (Annual maintenance charges)Rs. 300 + GST per year
+                    DP transaction charge of Rs.14.5+ GST per scrip (for any value)will be debited for all sell side
+                    transaction only.
+                    For Mutual Fund Rs.14.50 + GST per folio (for any value) will be debited for Demat redemption.
+                    As per Govt Notification w.e.f. 01st Jul 2020 all Off Market Transactions in Demat account would be
+                    subject to stamp duty charges on upfront basis @ 0.015% of the consideration value.
+                    DP transaction charge of Rs.14.5+ GST per scrip (for any value) will be debited for all stock
+                    movements from client account to Tradejini Margin Account.</p>
+            </div>
+            <div class="fourthtext">
+                <h1>Payment Gateway charges</h1>
+                <p>Payment gateway charges of Rs.9.00 + GST per transaction.</p>
+            </div>
+            <div class="fourthtext">
+                <h1>Collateral Margin Stock Movement charges</h1>
+                <p>Both FNO Margin Pledging and Margin Unpledging will cost Rs.32 + GST per scrip irrespective of the
+                    quantity.</p>
+            </div>
+            <div class="fourthtext">
+                <h1>Margin Penalty charges</h1>
+                <p>In case of non maintenance of Margins in all Derivative Segments as per Exchange prescribed norms –
+                    Exchanges charges Penalty charges for such shortfall and the same is passed on to the client for
+                    details please click here on NSE and MCX.</p>
+            </div>
+        </div>
+    </div>
+    <section class="invest bg-[#F8FBF8] mt10">
+        <div class="maininvest flex justify-center items-center">
+            <div class="headinves p10 flex justify-center items-center  :flex-col">
+                <div class="flex justify-center items- flex-col">
+                    <h1>Start investing now!</h1>
+                    <p>
+                        Online platform to invest in stocks, derivatives, mutual funds,
+                        and more
+                    </p>
+                </div>
+                <div class="button_signup">
+                    <button class="signupp text-black">
+                        <span> Sign up </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="downlinks">
+        <div class="mainlinks flex items-center justify-around p-12">
+            <div class="company">
+                <h3 class="com">
+                    Company
+                </h3>
+                <ul class="fle">
+                    <li class="fotterlink">About us</li>
+                    <li class="fotterlink">Products</li>
+                    <li class="fotterlink">Pricing</li>
+                    <li class="fotterlink">Career</li>
+                </ul>
+            </div>
+            <div class="company">
+                <h3 class="com">
+                    Support
+                </h3>
+                <ul class="fle">
+                    <li class="fotterlink">Support Portal</li>
+                    <li class="fotterlink">Contact Us</li>
+                    <li class="fotterlink">Investors Corner</li>
+                    <li class="fotterlink">Partner</li>
+                </ul>
+            </div>
+            <div class="company">
+                <h3 class="com">
+                    Tools
+                </h3>
+                <ul class="fle">
+                    <li class="fotterlink1">Brokerage Calculator</li>
+                    <li class="fotterlink1">Margin Calculator</li>
+                    <li class="fotterlink1">Referral Calculator</li>
+                    <li class="fotterlink1"></li>
+                </ul>
+            </div>
+            <div class="company">
+                <h3 class="com">
+                    Downloads
+                </h3>
+                <ul class="fle">
+                    <li class="fotterlink">Forms</li>
+                    <li class="fotterlink">Software</li>
+                    <li class="fotterlink">Charges</li>
+                    <li class="fotterlink">Holidays</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="f2 relative">
+        <div class="footer2 p-6  :p-0  :pt-3">
+            <div class="footerlog flex my-10">
+                <img class="footerlogcla"
+                    src="./assests/logomain.svg"
+                    alt="logo">
+            </div>
+            <div class="footerbottom  :flex-col">
+
+                <div class="textfooter">
+                    <h1 class="tfooterltd ">Tradejini Financial Services Pvt Ltd</h1>
+                    <h1>Corporate Office</h1>
+                    <div class="mb-6">
+                        Vasavi Square, 2nd Floor, No.75/757, 10th Main Road, 4th Block,
+                        Jayanagar, Bangalore – 560011.Contact No : +91-80-40204020
+                        Email : help@tradejini.com
+                    </div>
+                    <h1>Regd Office</h1>
+                    <div class="mb-6">
+                        Suvas,No 4, Shankarmutt Road, 3rd Cross, Shankarpuram,
+                        Bangalore – 560004.
+                    </div>
+                    <h1>Sales Office</h1>
+                    <div class="mb-6">
+                        223, Vijay Enclave, 2nd Floor, TV Swamy Road East, R.S. Puram,
+                        Coimbatore, Tamil Nadu – 641002.
+                        Contact No : +91-422-4357170
+                    </div>
+
+                </div>
+                <div class="textfooteraction">
+                    <div class="mb-5">
+                        SEBI REGISTRATION NO.: INZ000160938
+                        (NSE: CM-FO-CD | BSE: CM-FO-CD | MCX: FO | MSEI: CM-FO-CD)
+                        CDSL Depository Participant: IN-DP-470-2020
+                        Mutual Fund ARN : 87156
+                    </div>
+                    <div class="mb-5">
+                        Please ensure you carefully read the Risk Disclosure
+                        Documents as prescribed by SEBI. For any complaints
+                        email at complaints @ tradejini.com
+                    </div>
+
+                    <div class="tools mb-5 flex max-">
+                        <button class="fbtns">BSE</button>
+                        <button class="fbtns">NSE</button>
+                        <button class="fbtns">MSEI </button>
+                        <button class="fbtns">MCX </button>
+                        <button class="fbtns">CDSL </button>
+                        <button class="fbtns">India INX </button>
+                    </div>
+                    <div class="socialmedia flex items-center -center">
+                        <h1 class="mt2 max-sm:text-xl">Follow us on</h1>
+                        <img src="./assests/twitter.svg"
+                            alt="">
+                        <img src="./assests/youtube.svg"
+                            alt="">
+                        <img src="./assests/facebook.svg"
+                            alt="">
+                        <img src="./assests/linkedin.svg"
+                            alt="">
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="last pr-8">
+                <p class="mb-4"> More: Policy and Procedures | PMLA | Data Classification and protection | Sample
+                    Contract Note</p>
+                <h1 class="mb-4"> Attention Investors</h1>
+                <p>Prevent Unauthorized Transactions in your trading/demat account Update your Mobile Number/Email IDs
+                    with your Stock brokers/Depository Participant.Receive alerts/information of your transactions on
+                    your Registered Mobile/Email for all debit and other important transactions in your trading/demat
+                    account directly from Exchange/CDSL on the same day”.</p>
+                <p>“KYC is one time exercise while dealing in securities markets – once KYC is done through a SEBI
+                    registered intermediary (broker, DP, Mutual Fund etc.),you need not undergo the same process again
+                    when you approach another intermediary.”</p>
+                <p>No need to issue cheques by investors while subscribing to IPO.Just write the bank account number and
+                    sign in the application form to authorise your bank to make payment in case of allotment.No worry
+                    for refund as the money remains in investor’s account.</p>
+                <p>This is to inform you as per Rules, Regulations and Bye-laws of Multi Commodity Exchange of India Ltd
+                    (MCX),that we do clientbased trading and proprietary trading.</p>
+                <p>Procedure to file a complaint on SCORES (Easy & quick). Register on SCORES portal and have the
+                    mandatory details for filing complaints on SCORES (Name, PAN, Address, Mobile Number and E-mail ID).
+                    Benefits: Effective Communication and Speedy redressal of the grievances.</p>
+                <p>Stock Brokers can accept securities as margin from clients only by way of pledge in the depository
+                    system w.e.f. September 01, 2020 Update your email id and mobile number with your stock broker /
+                    depository participant and receive OTP directly from depository on your email id and/or mobile
+                    number to create pledgeCheck your securities / MF / bonds in the consolidated account statement
+                    issued by NSDL/CDSL every month.</p>
+                <div class="last2 pr-16 pl-0 max-sm:pr-0">
+                    <p>Made with <span class="mx-2"
+                            style="color: red;">&#10084;</span> in Bharath @2023 Tradejini | All Rights
+                        Reserved</p>
+                    <p class="max-md:hidden">Disclaimer | Copyright Policy | Fraud Prevention | Privacy Policy</p>
+                </div>
+            </div>
+
+    </footer>
+</body>
+
+</html>

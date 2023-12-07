@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet"
+        href="contack.css" />
+
+    <link rel="stylesheet"
+        href="./Navbar.css">
+</head>
+
+<style>
+    table {
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        border-right: 2px solid rgba(0, 0, 0, 0.2);
+        padding: 25px;
+        text-align: center;
+    }
+
+    th {
+        background: #6AAD89;
+        font-weight: 600;
+        color: #fff;
+        /* background: rgba(1, 193, 152, 0.3); */
+    }
+
+    tr:nth-child(odd) {
+
+        /* background: rgba(1, 193, 152, 0.1); */
+        background: #EAEAEA;
+
+    }
+
+    .table {
+        width: 100%;
+        padding: 40px 120px;
+    }
+</style>
+
+<body>
+    <div class="desc">Share On</div>
+    <div class="flex items-center justify-center">
+        <a target="_blank" href="https://wa.me/">
+            <img
+            src="https://tradejini.com/wp-content/uploads/2023/07/ri_whatsapp-fill.svg"
+            alt="" />
+        </a>
+        <a target="_blank" href="https://www.facebook.com">
+            <span class="mx-4"><img
+                src="https://tradejini.com/wp-content/uploads/2023/07/ic_baseline-facebook-1.svg"
+                alt="" /></span>
+            </a>
+            <a target="_blank" href="https://twitter.com">
+
+                
+                <img src="https://tradejini.com/wp-content/uploads/2023/07/mdi_twitter-1.svg"
+                alt="" />
+            </a>
+    </div>
+
+    <section class="heroontent bg[#F8FBF8] max[1440px]">
+        <nav class="flex fixed top-0 w-full justify-around items-center mx24 header">
+            <div class="logo">
+                <img src="./contactassets/Frame 1000001713.svg"
+                    alt="">
+            </div>
+
+            <div class="items mt-2">
+                <ul class="list flex mt6">
+                    <li class="item">About</li>
+                    <li class="item">Product</li>
+                    <li class="item">Pricing</li>
+                    <li class="item flex w-full dropw">
+                        <a href="#">Media </a>
+                        <img class="mx-2"
+                            src="../7.Pricing main page/pricingsvg/Stroke-1.svg"
+                            alt="" />
+                        <div class="dropdown-content">
+                            <div class="flex flex-col p-4">
+                                <a href="#">Jiniversity</a>
+                                <a href="#">Press coverage</a>
+                                <a href="#">Events</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item">Support</li>
+                </ul>
+            </div>
+            <center class="serchicon">
+                <img class="-ml10 mt-3 serchicin"
+                    src="./contactassets/search.svg"
+                    alt="">
+            </center>
+            <div class="serachs max-[1100px]:ml-0">
+                <div class="flex items-center justify-center">
+                    <input type="text"
+                        id="searchInput"
+                        placeholder="Search..." />
+                    <img class="-ml-10 mt-3"
+                        src="./contactassets/search.svg"
+                        alt="">
+                </div>
+
+                <div class="bg-black"
+                    id="searchResults"></div>
+            </div>
+
+            <div class="login_btn mt-3">
+                <button class="loginn   max-[1100px]:ml-0">
+                    Sign up
+                </button>
+            </div>
+
+
+            <div class="hamburg mt-3"
+                id="hamburg">
+                <img src="./contactassets/hamburger.svg"
+                    alt="">
+            </div>
+
+        </nav>
+    </section>
+
+    <section class="hero bg-[#F8FBF8]">
+        <div class="main w-full flex justify-center items-center pt-48">
+            <h1>Contact Us</h1>
+        </div>
+    </section>
+
+    <section class="oprning bg-[#F8FBF8]">
+        <div class="opencard flex justify-center items-center flex-wrap">
+            <div class="accard mx16 p-7 pb-3">
+                <h1>Account opening</h1>
+
+                <div class="days mt-4">
+                    <span> Monday - Friday </span>
+                    <span class="ml-10"> Suturday </span>
+                </div>
+                <div class="days">
+                    <span> 9:00 AM - 5:30 PM </span>
+                    <span class="ml-10"> 9:00 AM - 2:00 PM </span>
+                </div>
+
+                <div class="phone flex my-5">
+                    <img src="./contactassets/call.svg"
+                        alt="" />
+                    <span class="ml-4 phonenum"> 080 4719 2020 </span>
+                </div>
+            </div>
+            <div class="accard p-7 pb-3">
+                <h1>Support</h1>
+
+                <div class="days mt-4">
+                    <span> Monday - Friday </span>
+                    <span class="ml-10"> Suturday </span>
+                </div>
+                <div class="days">
+                    <span> 9:00 AM - 5:30 PM </span>
+                    <span class="ml-10"> 9:00 AM - 2:00 PM </span>
+                </div>
+
+                <div class="phone flex my-5">
+                    <img src="./contactassets/call.svg"
+                        alt="" />
+                    <span class="ml-4"> 080 4719 2020 </span>
+                </div>
+
+                
+                <!-- <a href="mailto:vivek.jk@tradejini.com">vivek.jk@tradejini.com</a>
+                <a href="tel:080-40204031">080-40204029</a> -->
+
+            </div>
+            <div class="accard mx16 p-7 pb-3">
+                <h1>Call and Trade</h1>
+
+                <div class="days mt-4">
+                    <span> Monday - Friday </span>
+                    <span class="ml-10"> Suturday </span>
+                </div>
+                <div class="days">
+                    <span> 9:00 AM - 5:30 PM </span>
+                    <span class="ml-10"> 9:00 AM - 2:00 PM </span>
+                </div>
+
+                <div class="phone flex my-5">
+                    <img src="./contactassets/call.svg"
+                        alt="" />
+                    <span class="ml-4"> 080 4719 2020 </span>
+                </div>
+            </div>
+            <div class="accard p-7 pb-3">
+                <h1>Partner Support</h1>
+
+                <div class="days mt-4">
+                    <span> Monday - Friday </span>
+                    <span class="ml-10"> Suturday </span>
+                </div>
+                <div class="days">
+                    <span> 9:00 AM - 5:30 PM </span>
+                    <span class="ml-10"> 9:00 AM - 2:00 PM </span>
+                </div>
+
+                <div class="phone flex my-5">
+                    <img src="./contactassets/call.svg"
+                        alt="" />
+                    <span class="ml-4"> 080 4719 2020 </span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="reach py-36 bg-[#F8FBF8] ">
+        <div class="reachmian flex justify-center itemsfa-border max-sm:flex-col">
+            <div class="leftimgreacg p-7">
+                <!-- <img src="./contactassets/Group 13921.png"
+                    alt="" /> -->
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15554.880868366829!2d77.584768!3d12.9256953!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae159f60769325%3A0xcf9694804d8fdb1c!2sTradejini!5e0!3m2!1sen!2sin!4v1689254224567!5m2!1sen!2sin" width="500"
+                    height="750"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- <iframe width="500"
+                    height="750"
+                    frameborder="0"
+                    style="border:0"
+                    src="https://maps.google.com/maps?q=Bangalore%2C%20Karnataka%20560011&z=15&output=embed"
+                    allowfullscreen></iframe> -->
+            </div>
+            <div class="rightinput ml20">
+                <h1>Reach out to us</h1>
+                <p>
+                    Lorem ipsum is placeholder text commonly used in the graphic, print,
+                    and publishing industries for previewing layouts and visual
+                </p>
+
+                <div class="reacinput mt-20 flex max-sm:flex-col">
+                    <div class="mr-10 max-sm:mr-0">
+                        Name
+                        <div class="inp">
+                            <input type="text"
+                                title="dd"
+                                placeholder="Jane Doe" />
+                        </div>
+                    </div>
+                    <div>
+                        Mobile number
+                        <div class="inp">
+                            <input type="text"
+                                title="dd"
+                                placeholder="9819384292" />
+                        </div>
+                    </div>
+                </div>
+                <div class="reacinput mt-10 flex max-sm:flex-col">
+                    <div class="mr-10  max-sm:mr-0">
+                        Email ID
+                        <div class="inp">
+                            <input type="text"
+                                title="dd"
+                                placeholder="janedoe19@gmail.com" />
+                        </div>
+                    </div>
+                    <div>
+                        Subject
+                        <div class="inp">
+                            <input type="text"
+                                title="dd"
+                                placeholder="Brokerage Fees" />
+                        </div>
+                    </div>
+                </div>
+                <div class="reainput mt-10 flex max-sm:flex-col">
+                    <div class="mr-10">
+                        Message
+                        <div class="ip">
+                            <input class="testt"
+                                type="text"
+                                title="dd"
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="button_signup -ml48 mt-10">
+                    <button class="signup0p ">
+                        Submit
+                    </button>
+                </div>
+            </div>
+    </section>
+
+    <section class="tabler pt-24 py-8 px-28 bg-[#F8FBF8]">
+        <div class="maintable">
+            <div class="topss mb-10">
+                <h1 class="matri">Escalation matrix</h1>
+            </div>
+
+            <table class="table">
+                <tr>
+                    <th class="borderer">Details</th>
+                    <th>Contact Person</th>
+                    <th>Address</th>
+                    <th>Contact No.</th>
+                    <th class="boded">Email Id</th>
+                    <!-- <th>Working Hours</th> -->
+                </tr>
+                <tr>
+                    <td>Customer Care</td>
+                    <td>Mrs. Latha K</td>
+                    <td>Lorem ipsum dolor</td>
+                    <td>080-40204020</td>
+                    <td class="bordered_las">Lorem ipsum dolor</td>
+
+                </tr>
+                <tr>
+                    <td>Head of Customer Care</td>
+                    <td>Mrs. Divyashree H</td>
+                    <td>Lorem ipsum dolor</td>
+
+                    <td>080-40204020</td>
+                    <td class="bordered_las">Lorem ipsum dolor</td>
+
+                </tr>
+                <tr>
+                    <td>Compliance officer</td>
+                    <td>Mr. Dinesh Kumar M</td>
+                    <td>Lorem ipsum dolor</td>
+
+                    <td>080-40204020</td>
+                    <td class="bordered_las">Lorem ipsum dolor</td>
+
+                </tr>
+                <tr>
+                    <td class="bordered_last">CEO</td>
+                    <td>Mr. Kishore Kumar J</td>
+                    <td>Lorem ipsum dolor</td>
+
+
+                    <td>080-40204020</td>
+                    <td class="bordered_last2">Lorem ipsum dolor</td>
+
+                </tr>
+            </table>
+        </div>
+    </section>
+
+
+    <div class="nse-bse">
+        In absence of response/complaint not addressed to your satisfaction, you may lodge a complaint with
+        <a class="text-[blue]"  href="https://scores.gov.in/scores/Welcome.html">
+            SEBI
+        </a>
+        
+        or Exchange 
+        
+        – 
+        <a class="text-[blue]"  href="https://investorhelpline.nseindia.com/NICEPLUS/">
+            NSE
+        </a>
+        |
+        <a class="text-[blue]"  href="https://bsecrs.bseindia.com/ecomplaint/frmInvestorHome.aspx">
+            BSE
+        </a>
+        |
+        <a class="text-[blue]"  href="https://igrs.mcxindia.com/">
+            MCX
+        </a>
+        |
+        <a class="text-[blue]"  href="https://www.cdslindia.com/Footer/grievances.aspx">
+            CDSL 
+        </a>
+       
+
+        Please quote your Service Ticket/Complaint Ref No. while raising your complaint at SEBI SCORES/Exchange portal.
+    </div>
+    <section class="tabler pt-24 py-8 px-28 bg-[#F8FBF8]">
+        <div class="maintable">
+            <div class="topss mb-10">
+                <h1 class="matri">Names and contact details of all Key Managerial Personnel including the Compliance
+                    Officer-</h1>
+            </div>
+
+            <table class="table">
+                <tr>
+                    <th class="borderer">Sr.No</th>
+                    <th>Name of the
+                        Individual</th>
+                    <th>Designation</th>
+                    <th>Mobile
+                        Number</th>
+                    <th class="boded">Email Id</th>
+                    <!-- <th>Working Hours</th> -->
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="bordered_las"></td>
+
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="bordered_las"></td>
+
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="bordered_las"></td>
+
+                </tr>
+                <tr>
+                    <td class="bordersss"> </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="bordered_las borde"></td>
+
+                </tr>
+
+
+
+            </table>
+        </div>
+    </section>
+
+
+    <section class="invest bg-[#F8FBF8] pt-10">
+        <div class="maininvest flex justify-center items-center">
+            <div class="headinves p10 flex  items-center flexol">
+                <div class="flex justify-center items- flex-col">
+                    <h1>Start investing now!</h1>
+                    <p>
+                        Account opening in less than 5 minutes
+                    </p>
+                </div>
+
+                <div class="button_signup ">
+                    <button class="signupp text-black">
+                        <span> Sign up </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="downlinks">
+        <div class="mainlinks flex items-center justify-around p16">
+            <div class="company">
+                <h3 class="com">
+                    Company
+                </h3>
+                <ul class="fle pt-3">
+                    <li class="fotterlink">About us</li>
+                    <li class="fotterlink">Products</li>
+                    <li class="fotterlink">Pricing</li>
+                    <li class="fotterlink">Career</li>
+                </ul>
+            </div>
+            <div class="company">
+                <h3 class="com">
+                    Support
+                </h3>
+                <ul class="fle pt-3">
+                    <li class="fotterlink">Support Portal</li>
+                    <li class="fotterlink">Contact Us</li>
+                    <li class="fotterlink">Investors Corner</li>
+                    <li class="fotterlink">Partner</li>
+                </ul>
+            </div>
+            <div class="company">
+                <h3 class="com">
+                    Tools
+                </h3>
+                <ul class="fle pt-3">
+                    <li class="fotterlink1">Brokerage Calculator</li>
+                    <li class="fotterlink1">Margin Calculator</li>
+                    <li class="fotterlink1">Referral Calculator</li>
+                    <li class="fotterlink1"></li>
+                    <!-- <li class="fotterlink">Career</li> -->
+                </ul>
+            </div>
+            <div class="company">
+                <h3 class="com">
+                    Downloads
+                </h3>
+                <ul class="fle pt-3">
+                    <li class="fotterlink">Forms</li>
+                    <li class="fotterlink">Software</li>
+                    <li class="fotterlink">Charges</li>
+                    <li class="fotterlink">Holidays</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="f2 relative">
+        <div class="footer2 p-6 max-md:p-0 max-md:pt-6">
+            <div class="footerlog flex mt-10">
+                <img src="./contactassets/Frame 1000002038.svg"
+                    alt="logo" />
+                <!-- <h1 class="text1 mt-2">Trade <span class="footerlogo">Jini</span> </h1> -->
+            </div>
+            <div class="footerbottom">
+
+                <div class="textfooter">
+                    <h1 class="mb-6 mt-8 max-sm:mb-20">Tradejini Financial Services Pvt Ltd</h1>
+                    <h1>Corporate Office</h1>
+                    <div class="mb-6">
+                        Vasavi Square, 2nd Floor, No.75/757, 10th Main Road, 4th Block,
+                        Jayanagar, Bangalore – 560011.Contact No : +91-80-40204020
+                        Email : help@tradejini.com
+                    </div>
+                    <h1>Regd Office</h1>
+                    <div class="mb-6">
+                        Suvas,No 4, Shankarmutt Road, 3rd Cross, Shankarpuram,
+                        Bangalore – 560004.
+                    </div>
+
+                </div>
+                <div class="textfooteraction">
+                    <div class="mb-5">
+                        SEBI REGISTRATION NO.: INZ000160938
+                        (NSE: CM-FO-CD | BSE: CM-FO-CD | MCX: FO | MSEI: CM-FO-CD)
+                        CDSL Depository Participant: IN-DP-470-2020
+                        Mutual Fund ARN : 87156
+                    </div>
+                    <div class="mb-5">
+                        Please ensure you carefully read the Risk Disclosure
+                        Documents as prescribed by SEBI. For any complaints
+                        email at complaints @ tradejini.com
+                    </div>
+
+                    <div class="tools mb-5 flex ml-">
+                        <button class="fbtns">BSE</button>
+                        <button class="fbtns">NSE</button>
+                        <button class="fbtns">MSEI </button>
+                        <button class="fbtns">MCX </button>
+                        <button class="fbtns">CDSL </button>
+                        <button class="fbtns">India INX </button>
+                    </div>
+                    <div class="socialmedia flex items-center -center">
+                        <h1 class="mt2 max-sm:text-xl">Follow us on</h1>
+                        <img src="./contactassets/tweet.svg"
+                            alt="">
+                        <img src="./contactassets/youtube.svg"
+                            alt="">
+                        <img src="./contactassets/fb.svg"
+                            alt="">
+                        <img src="./contactassets/linked.svg"
+                            alt="">
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="last pr-8 max-md:pr-2">
+                <p class="mb-4"> More: Policy and Procedures | PMLA | Data Classification and protection | Sample
+                    Contract Note</p>
+                <h1 class="mb-4"> Attention Investors</h1>
+                <p>Prevent Unauthorized Transactions in your trading/demat account Update your Mobile Number/Email IDs
+                    with your Stock brokers/Depository Participant.Receive alerts/information of your transactions on
+                    your Registered Mobile/Email for all debit and other important transactions in your trading/demat
+                    account directly from Exchange/CDSL on the same day”.</p>
+                <p>“KYC is one time exercise while dealing in securities markets – once KYC is done through a SEBI
+                    registered intermediary (broker, DP, Mutual Fund etc.),you need not undergo the same process again
+                    when you approach another intermediary.”</p>
+                <p>No need to issue cheques by investors while subscribing to IPO.Just write the bank account number and
+                    sign in the application form to authorise your bank to make payment in case of allotment.No worry
+                    for refund as the money remains in investor’s account.</p>
+                <p>This is to inform you as per Rules, Regulations and Bye-laws of Multi Commodity Exchange of India Ltd
+                    (MCX),that we do clientbased trading and proprietary trading.</p>
+                <p>Procedure to file a complaint on SCORES (Easy & quick). Register on SCORES portal and have the
+                    mandatory details for filing complaints on SCORES (Name, PAN, Address, Mobile Number and E-mail ID).
+                    Benefits: Effective Communication and Speedy redressal of the grievances.</p>
+                <p>Stock Brokers can accept securities as margin from clients only by way of pledge in the depository
+                    system w.e.f. September 01, 2020 Update your email id and mobile number with your stock broker /
+                    depository participant and receive OTP directly from depository on your email id and/or mobile
+                    number to create pledgeCheck your securities / MF / bonds in the consolidated account statement
+                    issued by NSDL/CDSL every month.</p>
+                <div class="last2 pr-16 pl-0 max-sm:pr-0">
+                    <p>Made with <span class="mx-2"
+                            style="color: red;">&#10084;</span> in Bharath @2023 Tradejini | All Rights
+                        Reserved</p>
+                    <p class="max-sm:hidden">Disclaimer | Copyright Policy | Fraud Prevention | Privacy Policy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

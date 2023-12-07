@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Gilroy:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.popup2 .overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  display: none;
+}
+.location {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: start;
+}
+.iconloc {
+  margin: 0 10px;
+}
+.container .closebtns {
+  position: absolute;
+  right: 245px;
+  top: 65px;
+  width: 30px;
+  height: 30px;
+
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  color: black;
+}
+.closebtns {
+  font-size: 35px;
+}
+.container {
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  padding: 20px 130px;
+  margin-top: 40px;
+  border-radius: 27px;
+  background-color: #f8f8f8;
+  padding-left: 90px;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.location h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 114.02%;
+  margin: 10px 0;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 90px 0;
+}
+
+input {
+  width: 250px;
+  padding: 5px 0;
+  border: none;
+  border-bottom: 1px solid gray;
+  background-color: transparent;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: black;
+}
+
+button {
+  padding: 5px 10px;
+}
+.upload-btn {
+  width: 250px;
+  height: 43px;
+
+  background: #efefef;
+  border-radius: 10px;
+}
+.last {
+  width: 100%;
+  text-align: center;
+}
+.submit-btn {
+  width: 117px;
+  height: 44px;
+
+  background: #118b64;
+
+  color: white;
+  box-shadow: 0px 0px 15.7636px rgba(56, 185, 144, 0.5);
+  border-radius: 12px;
+
+  margin-bottom: 50px;
+}
+.titileh1 {
+  margin-top: 0px;
+}

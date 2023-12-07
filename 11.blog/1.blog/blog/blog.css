@@ -1,0 +1,1148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.serchicon {
+  display: none;
+}
+
+.serchicon {
+  display: none;
+}
+.hamburg {
+  display: none;
+}
+.items ul li {
+  list-style: none;
+}
+
+.logo {
+  margin: 11px 0 0 -5px;
+  margin-left: 0px;
+  margin-top: 7px;
+  margin-right: 0px;
+}
+
+.hero {
+  height: 700px;
+  width: 100%;
+}
+
+
+.header {
+  border-radius: 20px;
+  z-index: 99;
+  padding: 5px;
+  margin-top: 10px;
+}
+.header::after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  background: rgba(248, 251, 248, 0.9);
+  width: 93%;
+  height: 56px;
+  text-align: right;
+  margin: 0 5 0px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.item {
+  margin: 10px 20px;
+  color: #000;
+}
+.nav_section {
+  z-index: 99;
+}
+
+.serachs input {
+  padding: 7px 15px;
+  gap: 10px;
+  margin-top: 10px;
+  width: 203px;
+  height: 35px;
+
+  background: #ffffff;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+.dot {
+  font-size: 40px;
+  margin-top: -22px;
+  border-radius: 50%;
+  color: rgba(35, 172, 128, 1);
+}
+
+.login {
+  padding: 9px 20px;
+  gap: 10px;
+
+  width: 101px;
+  height: 38px;
+  color: #fff;
+
+  background: linear-gradient(180deg, #0b224e -140%, #01787b 93.61%);
+
+  box-shadow: 0px 0px 15.7636px rgba(56, 185, 144, 0.5);
+  border-radius: 34px;
+}
+
+
+
+/* ?///////////////////////////////////// */
+.input input {
+  display: flex;
+  width: 458px;
+  padding: 16px 19px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 7px;
+  background: #fefefe;
+  box-shadow: 0px 8px 21px 0px rgba(29, 29, 29, 0.06);
+}
+.input input::placeholder {
+  color: #8f8f8f;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.5px;
+}
+
+.buttonse {
+  display: flex;
+  padding: 15px 51px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 34px;
+  background: linear-gradient(180deg, #0b224e -140%, #01787b 93.61%);
+  box-shadow: 0px 0px 15.7636079788208px 0px rgba(56, 185, 144, 0.5);
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+/* ?///////////////////////////////////// */
+
+.headinves {
+  padding: 3.5rem;
+}
+
+
+
+.vertical {
+  width: 185.39px;
+  height: 0px;
+  margin: 70px 0px;
+  border: 1px solid #121212;
+  transform: rotate(-90deg);
+}
+
+.rightabout h1 {
+  width: 226px;
+  height: 48px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 133.52%;
+  color: #272727;
+}
+
+.rightabout p {
+  width: 547px;
+  margin: 15px 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155.02%;
+}
+
+.men {
+  z-index: 80;
+  left: 20%;
+}
+
+.loren {
+  width: 169px;
+  height: 37px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 155.02%;
+  color: #000000;
+}
+.poly {
+  top: 0;
+  z-index: 0;
+  left: 30%;
+  margin-top: -5%;
+}
+
+.cer {
+  top: 50%;
+  z-index: 0;
+  left: 15%;
+  bottom: -45%;
+}
+
+.aboutmem p {
+  width: 172.06px;
+  height: 144px;
+  left: calc(50% - 172.06px / 2 + 0px);
+  top: calc(50% - 144px / 2 - 15.45px);
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+  opacity: 0;
+  color: #ededed;
+}
+
+.ico {
+  opacity: 0;
+}
+.headmeet h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 133.52%;
+  color: #272727;
+}
+
+.headmeet span {
+  height: 55px;
+  left: 119px;
+  top: 43.52px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 114.02%;
+
+  background: linear-gradient(180deg, #151515 0%, #01787b 70.62%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.maincontainerbox {
+  margin: 50px 20px;
+}
+.box1container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box1container h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 150%;
+
+  text-align: center;
+
+  color: #111111;
+}
+.box2list h2 {
+  color: #0e0e0e;
+  opacity: 0.7;
+}
+.box1container p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+
+  text-align: center;
+
+  color: #121212;
+}
+.box2container {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+
+.box2list {
+  width: 720px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 0px;
+  /* opacity: 0.7; */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 158.52%;
+  gap: 10px;
+}
+
+.box2h1 {
+  padding: 10px;
+  background: #118b64;
+  background-color: #118b64;
+  color: white;
+  border: 1px solid #118b64;
+  border-radius: 11px;
+  color: #ffffff;
+}
+.blogspot {
+  padding: 10px 115px;
+}
+.grid-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  /* display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(2, auto); */
+  gap: 40px;
+}
+.grid-container a {
+  width: 360px;
+  margin: 10px 0px;
+}
+
+.grid-item {
+  background-color: white;
+  padding-bottom: 30px;
+  box-shadow: 0.913402px 0.913402px 21px rgba(29, 29, 29, 0.1);
+  border-radius: 20px;
+}
+.blogimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box4container {
+  margin-top: 80px;
+}
+.gridtime {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+.gridtime .gp1 {
+  padding: 5px;
+  background-color: #daf5ed;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 12px;
+  margin-top: 15px;
+}
+.gridtime .gp2 {
+  margin-top: 14px;
+}
+.girdcontext {
+  margin-left: 23px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.girdcontext h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 139%;
+  margin-bottom: 10px;
+}
+.girdcontext p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: #118b64;
+  color: white;
+  border: 1px solid #118b64;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+.headinves h1 {
+  width: 638px;
+  height: 101px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 150%;
+
+  color: #ffffff;
+}
+.signup {
+  color: #000;
+}
+
+.headinves {
+  background-image: url("./assests/Gradientbgbox5.png");
+  width: 1270px;
+  height: 440px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.headinves p {
+  width: 423px;
+  height: 60px;
+  margin-top: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+
+  color: #ffffff;
+}
+
+.signupp {
+  padding: 18px 51px;
+  gap: 10px;
+  width: 179px;
+  height: 66px;
+  background: #ffffff;
+  box-shadow: 0px 0px 15.7636px #c4e2ec;
+  border-radius: 34px;
+}
+.signup span {
+  width: 77px;
+  height: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+
+  background: linear-gradient(180deg, #0b224e -140%, #01787b 93.61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  color: transparent;
+}
+
+.borf {
+  border-right: 2px solid #000;
+}
+
+.fbtns {
+  margin: 5px;
+  padding: 10px;
+  background-color: #01c096;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.com {
+  width: 102px;
+  height: 32px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 158.52%;
+  display: flex;
+  align-items: center;
+  color: #1c1c1c;
+}
+
+.fotterlink {
+  width: 150px;
+  height: 25px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 158.52%;
+  display: flex;
+  align-items: center;
+  color: rgba(188, 195, 194, 1);
+}
+.fotterlink1 {
+  width: 200px;
+  height: 25px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 158.52%;
+  display: flex;
+  align-items: center;
+  color: rgba(188, 195, 194, 1);
+}
+.fotterlink :nth-child(1) {
+  margin-top: 20px;
+}
+
+.fotterlink {
+  margin: 11px 0;
+}
+.fotterlink1 {
+  margin: 11px 0;
+}
+
+.rightjour {
+  margin-left: 25%;
+}
+.rightabout {
+  margin-left: 25%;
+}
+
+footer {
+  background: #121212;
+}
+.footer1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.titlef {
+  color: rgba(35, 172, 128, 1);
+  font-weight: 400;
+  font-size: 20px;
+}
+li,
+.text1 {
+  color: white;
+}
+
+.textfooter,
+.textfooteraction {
+  color: rgba(188, 195, 194, 1);
+  width: 560px;
+}
+.footerbottom {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.footerlogcla {
+  width: 200px;
+
+  margin-left: 10px;
+}
+.socialmedia {
+  display: flex;
+}
+.socialmedia img {
+  margin-left: 20px;
+}
+.last {
+  color: #bcc4c2;
+  margin-left: 30px;
+}
+.last p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 158.52%;
+
+  color: rgba(188, 195, 194, 1);
+}
+.last2 {
+  display: flex;
+  color: rgba(188, 195, 194, 1);
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.last2 p {
+  font-size: 17px;
+  line-height: 158.52%;
+
+  color: rgba(188, 195, 194, 1);
+}
+.image2 {
+  display: none;
+}
+
+@media (max-width: 560px) {
+  .maincontainerbox {
+    margin: 150px 0;
+  }
+  .serachs {
+    display: none;
+  }
+  .serchicon {
+    height: 44px;
+    width: 34px;
+    display: block;
+  }
+  .mainlinks {
+    padding: 0;
+  }
+  .Calculator,
+  .boxcal {
+    width: 100%;
+  }
+  .textcal {
+    margin-bottom: 50px;
+  }
+  .trans {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    text-align: start;
+  }
+  .lowermaindiv {
+    flex-direction: column;
+  }
+  .options {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+  }
+  .opt_21 {
+    margin-left: 0;
+  }
+  .middleone {
+    margin-top: 120px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .maincontainerbox {
+    margin: 0;
+  }
+  .onevison p {
+    width: 100%;
+  }
+  .maininvest {
+    margin: 0 15px;
+    flex-direction: column;
+  }
+  .headinves {
+    width: 100%;
+    height: 440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+  }
+  .value p {
+    width: 100%;
+  }
+  .leftgoal p {
+    width: 100%;
+    padding: 10px;
+  }
+  .rightabout p {
+    width: 100%;
+  }
+  .cer {
+    top: 42%;
+  }
+}
+@media (min-width: 500px) and (max-width: 768px) {
+  .maincontainerbox {
+    margin: 150px 0;
+  }
+  .textfooter {
+    color: white;
+    width: 100%;
+  }
+  .textfooteraction {
+    color: white;
+    width: 100%;
+  }
+
+  .mainjourny {
+    flex-direction: column;
+  }
+  .rightjour {
+    transform: rotate(90deg);
+    margin-left: -10%;
+    margin-top: 20%;
+  }
+  .tools {
+    flex-wrap: wrap;
+
+    width: 50%;
+  }
+  .mainlinks {
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+  }
+  .headinves {
+    flex-direction: column;
+  }
+  .headinves h1 {
+    width: 100%;
+    font-size: 36px;
+    padding: 20px;
+  }
+  .headinves p {
+    width: 100%;
+  }
+  .heroh1 h1 {
+    padding: 10px;
+    font-size: 24px;
+    width: 100%;
+  }
+  .heroh1 p {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .leftjourn {
+    padding: 10px;
+  }
+
+  .men {
+    z-index: 80;
+    left: 40%;
+  }
+  .poly {
+    top: 0;
+    z-index: 0;
+    left: 50%;
+    margin-top: -5%;
+    display: none;
+  }
+  .cer {
+    z-index: 0;
+    left: 29%;
+    bottom: -45%;
+    display: none;
+  }
+  .leftjourn p {
+    width: 100%;
+  }
+  .lstvison {
+    flex-direction: column;
+  }
+  .rightabout {
+    margin-left: 20%;
+    padding: 10px;
+  }
+
+  .headmeet {
+    padding: 15px;
+  }
+  .onevison {
+    padding: 10px 10px;
+  }
+  .valuesss {
+    margin-top: 80px;
+    padding: 10px;
+  }
+
+  .mainhero {
+    flex-direction: column;
+  }
+
+  .lefthero {
+    margin-left: 0;
+  }
+}
+@media (max-width: 1100px) {
+  .maincontainerbox {
+    padding: 0 50px;
+    margin: 150px 0 0 0;
+  }
+  .logo {
+    margin-left: 0;
+  }
+  .maininvest {
+    margin: 0;
+  }
+  .header {
+    justify-content: space-between;
+  }
+  .hamburg {
+    display: block;
+  }
+  .headinves {
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .button_signup {
+    margin-top: 10px;
+  }
+
+  .items {
+    display: none;
+  }
+
+  .middleone {
+    width: 100%;
+  }
+  .box2list {
+    margin: 0;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+  }
+}
+@media (max-width: 560px) {
+  .maincontainerbox {
+    margin: 0px;
+  }
+  .serachs {
+    display: none;
+  }
+  .serchicon {
+    height: 44px;
+    width: 34px;
+    display: block;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    gap: 20px;
+  }
+  .box4pagetemp {
+    display: none;
+  }
+  .box2list {
+    margin-left: 5px;
+  }
+  .box2container {
+    position: relative;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+  }
+
+  .box2container::-webkit-scrollbar {
+    width: 0.5em;
+  }
+}
+@media (min-width: 320px) and (max-width: 500px) {
+  .maincontainerbox {
+    margin-top: 150px;
+    margin-bottom: 10px;
+    padding: 0 45px;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+  }
+  .men {
+    z-index: 80;
+    left: 33%;
+  }
+  .rightabout {
+    margin-left: 28%;
+  }
+  .lefthero {
+    margin-left: 1.5rem;
+  }
+  .textfooter {
+    color: white;
+    width: 100%;
+  }
+
+  .onevison {
+    padding: 10px;
+  }
+
+  .serchicon {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .footerlog {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7px;
+  }
+  .footerbottom {
+    flex-direction: column;
+  }
+  .footerbottom,
+  .last {
+    margin-left: 10px;
+  }
+
+  .mainteam {
+    padding: 0rem;
+  }
+
+  .login_btn {
+    display: none;
+  }
+
+  .leftjourn p {
+    width: 100%;
+  }
+  .textfooteraction {
+    color: white;
+    width: 100%;
+  }
+  .mainjourny {
+    flex-direction: column;
+  }
+  .rightjour {
+    transform: rotate(90deg);
+    margin-left: -10%;
+    margin-top: 20%;
+  }
+  .tools {
+    flex-wrap: wrap;
+
+    width: 100%;
+  }
+
+  .mainlinks {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+
+  .maininvest {
+    margin: 0;
+  }
+  .headinves {
+    flex-wrap: wrap;
+    padding: 2px;
+  }
+  .button_signup {
+    margin-top: 56px;
+  }
+  .headinves h1 {
+    width: 100%;
+    font-size: 40px;
+
+    padding-left: 20px;
+  }
+  .headinves p {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+  }
+  .heroh1 h1 {
+    padding: 10px;
+    font-size: 24px;
+    width: 100%;
+  }
+  .member13 {
+    margin: 20px 0;
+  }
+  .heroh1 p {
+    padding: 10px;
+    width: 100%;
+  }
+  .headinves h1 {
+    margin-top: 30px;
+  }
+  .button_signup {
+    padding-bottom: 50px;
+    margin: 0;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    gap: 20px;
+  }
+  .box4pagetemp {
+    display: none;
+  }
+  .box2container {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow-x: scroll;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .box2container::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  .tfooterltd {
+    text-align: center;
+    margin-bottom: 68px;
+  }
+  .socialmedia {
+    position: absolute;
+    top: 6%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .maincontainerbox {
+    margin: 150px 80px 10px 80px;
+  }
+  .onevison p {
+    width: 100%;
+  }
+
+  .rightjour {
+    margin-left: 10%;
+  }
+  .maininvest {
+    margin: 0px;
+  }
+  .mainteam {
+    padding: 0rem;
+  }
+  .rotag {
+    width: 80%;
+  }
+  .valuesss {
+    padding: 50px;
+    flex-direction: column;
+  }
+  .value p {
+    width: 100%;
+  }
+  .leftjourn {
+    padding: 10px;
+  }
+  .vertical {
+    display: none;
+  }
+  .rightabout {
+    margin-left: 38%;
+  }
+
+  .men {
+    width: 20%;
+  }
+  .headinves {
+    width: 100%;
+    flex-direction: row;
+  }
+  .grid-container {
+    gap: 50px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .maincontainerbox {
+    margin: 150px 100px 10px 100px;
+  }
+  .onevison p {
+    width: 100%;
+  }
+
+  .rightjour {
+    margin-left: 10%;
+  }
+  .maininvest {
+    margin: 0px 60px;
+  }
+  .mainteam {
+    padding: 0rem;
+  }
+  .rotag {
+    width: 80%;
+  }
+  .valuesss {
+    padding: 50px;
+    flex-direction: column;
+  }
+  .value p {
+    width: 100%;
+  }
+  .leftjourn {
+    padding: 10px;
+  }
+  .vertical {
+    display: none;
+  }
+  .rightabout {
+    margin-left: 38%;
+  }
+
+  .men {
+    width: 20%;
+  }
+  .headinves {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    flex-direction: row;
+    margin: 50px 0;
+  }
+}

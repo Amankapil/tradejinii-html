@@ -1,0 +1,643 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+.eventhead {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 150%;
+  text-align: center;
+  color: #111111;
+}
+.eventcard1 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: flex-start;
+  padding: 43px 71px;
+  gap: 31px;
+  width: 588px;
+  height: 410px;
+  background: #f8fbf8;
+  box-shadow: 0.913402px 0.913402px 21px rgba(29, 29, 29, 0.1);
+  border-radius: 20px;
+}
+
+.location div {
+  font-size: 16px;
+}
+
+.lorem {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 114.02%;
+  color: #111111;
+}
+
+.ipsum {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #111111;
+  opacity: 0.6;
+}
+
+.dolar {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #111111;
+}
+.doalrbtn {
+  display: flex;
+  padding: 3.889px 7.778px;
+  align-items: flex-start;
+  border-radius: 10px;
+  background: #daf5ed;
+}
+.doalr button span {
+  color: #383737;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.loremmbtn {
+  width: 229px;
+  height: 48px;
+
+  /* Button */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  color: #ffffff;
+
+  background: linear-gradient(180deg, #0b224e -140%, #01787b 93.61%);
+  box-shadow: 0px 0px 15.7636px rgba(56, 185, 144, 0.5);
+  border-radius: 34px;
+  color: #ffffff;
+}
+
+.headinves h1 {
+  width: 638px;
+  /* height: 101px; */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 150%;
+  /* identical to box height, or 84px */
+
+  color: #ffffff;
+}
+
+.headinves {
+  background-image: url("./eventassets/Frame\ 1000001731\ \(1\).png");
+  width: 1270px;
+  height: 440px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.headinves p {
+  width: 423px;
+  height: 60px;
+  margin-top: 12px;
+  /* B1 */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+  color: #ffffff;
+}
+
+.img {
+  border-radius: 20px;
+}
+
+.maininvest {
+  margin: 0 150px;
+}
+.signupp {
+  padding: 18px 51px;
+  gap: 10px;
+  width: 179px;
+  height: 66px;
+  background: #ffffff;
+  box-shadow: 0px 0px 15.7636px #c4e2ec;
+  border-radius: 34px;
+}
+.signupp span {
+  width: 77px;
+  height: 30px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  /* button2 */
+
+  background: linear-gradient(180deg, #0b224e -140%, #01787b 93.61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ?-------------------------------fotter style */
+
+.com {
+  width: 102px;
+  height: 32px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 158.52%;
+  /* identical to box height, or 32px */
+  display: flex;
+  align-items: center;
+  color: #1c1c1c;
+}
+
+.fotterlink {
+  width: 150px;
+  height: 25px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 158.52%;
+  /* or 25px */
+  display: flex;
+  align-items: center;
+  color: #565656;
+}
+.fotterlink1 {
+  width: 200px;
+  height: 25px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 158.52%;
+  /* or 25px */
+  display: flex;
+  align-items: center;
+  color: #565656;
+}
+.fotterlink :nth-child(1) {
+  margin-top: 20px;
+}
+
+.fotterlink {
+  margin: 11px 0;
+}
+.fotterlink1 {
+  margin: 11px 0;
+}
+.company {
+  width: 187px;
+}
+
+/* //?maainfooter[[[[[[[[[[[[[[[[[[[[[[ */
+
+footer {
+  background-color: black;
+}
+.footer1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.titlef {
+  color: rgba(35, 172, 128, 1);
+  font-weight: 400;
+  font-size: 20px;
+}
+li,
+.text1 {
+  color: #bcc3c2;
+}
+.footerlogo {
+  color: rgba(35, 172, 128, 1);
+}
+.textfooter,
+.textfooteraction {
+  color: #bcc3c2;
+}
+.footerbottom {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+.footerlog {
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.socialmedia {
+  display: flex;
+}
+.socialmedia img {
+  margin-left: 20px;
+}
+.last {
+  color: #bcc3c2;
+  margin-left: 50px;
+}
+
+.last p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 158.52%;
+  /* or 16px */
+
+  /* display: flex;
+  align-items: center; */
+
+  color: #bcc4c2;
+}
+.last2 {
+  display: flex;
+  color: white;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.last2 p {
+  font-size: 17px;
+  line-height: 158.52%;
+  /* display: flex;
+  align-items: center; */
+  color: #bcc4c2;
+}
+
+.fbtns {
+  margin: 5px;
+  padding: 10px;
+  background-color: #01c096;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* ?==========================Responsive Design======================== */
+
+@media only screen and (max-width: 768px) {
+  .onevison p {
+    width: 100%;
+  }
+  .maininvest {
+    margin: 0;
+    flex-direction: column;
+  }
+  .headinves {
+    width: 100%;
+    height: 440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border-radius: 20px; */
+  }
+  .value p {
+    width: 100%;
+  }
+  .leftgoal p {
+    width: 100%;
+    padding: 10px;
+  }
+  .rightabout p {
+    width: 100%;
+  }
+  .cer {
+    top: 42%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+  .textfooter {
+    color: white;
+    width: 100%;
+  }
+  .textfooteraction {
+    color: white;
+    width: 100%;
+  }
+
+  .mainjourny {
+    flex-direction: column;
+  }
+  .rightjour {
+    transform: rotate(90deg);
+    margin-left: -10%;
+    margin-top: 20%;
+  }
+  .tools {
+    flex-wrap: wrap;
+
+    width: 50%;
+  }
+  .mainlinks {
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+  }
+  .headinves {
+    flex-direction: column;
+  }
+  .headinves h1 {
+    width: 100%;
+
+    padding: 0px 20px;
+    font-size: 23px;
+  }
+  .headinves p {
+    width: 100%;
+  }
+  .heroh1 h1 {
+    padding: 10px;
+    font-size: 24px;
+    width: 100%;
+  }
+  .heroh1 p {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .leftjourn {
+    padding: 10px;
+  }
+
+  .mainteam {
+    padding: 5px;
+  }
+  .cardteam {
+    flex-wrap: wrap;
+  }
+  .member1 {
+    margin: 30px 0;
+  }
+  .headmeet {
+    padding: 15px;
+  }
+  .onevison {
+    padding: 10px 10px;
+  }
+  .valuesss {
+    margin-top: 80px;
+    padding: 10px;
+  }
+
+  .mainhero {
+    flex-direction: column;
+  }
+
+  .lefthero {
+    margin-left: 0;
+  }
+
+  .equity {
+    /* flex-direction: column; */
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .button_signup {
+    width: 100%;
+    padding: 10px;
+  }
+  .signupp {
+    width: 100%;
+  }
+  .textfooter {
+    color: white;
+    width: 100%;
+  }
+  .socialmedia {
+    position: absolute;
+    top: 4.5%;
+    padding: 50px 0;
+  }
+
+  .eventcard1 {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+  }
+  .mainteam {
+    padding: 0rem;
+  }
+
+  .headinves {
+    background-image: url("../../svgs/Gradient.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .leftjourn p {
+    width: 100%;
+  }
+  .footerbottom {
+    flex-direction: column;
+  }
+  .textfooteraction {
+    color: white;
+    width: 100%;
+  }
+
+  .lasthide {
+    display: none;
+  }
+
+  .mainjourny {
+    flex-direction: column;
+  }
+  .rightjour {
+    transform: rotate(90deg);
+    margin-left: -10%;
+    margin-top: 20%;
+  }
+  .tools {
+    flex-wrap: wrap;
+
+    width: 100%;
+  }
+  .mainlinks {
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    padding: 10px;
+  }
+  .headinves {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 4px;
+
+    background-image: url("../../assets/Background\ pic\ behind\ sign\ out.png");
+    width: 100%;
+    height: 440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* padding: 2.5rem;  */
+    justify-content: space-around;
+  }
+  .headinves {
+    flex-direction: column;
+    padding: 4px;
+    justify-content: space-evenly;
+  }
+  .headinves h1 {
+    width: 100%;
+    font-size: 28px;
+    padding: 20px;
+  }
+  .headinves p {
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+  }
+  .heroh1 h1 {
+    padding: 10px;
+    font-size: 24px;
+    width: 100%;
+  }
+  .member13 {
+    margin: 20px 0;
+  }
+
+  .equity {
+    flex-direction: column;
+  }
+  .leftbottons {
+    width: 100%;
+  }
+  .leftbottonsunactive {
+    width: 100%;
+  }
+  .leftbottons.active {
+    width: 100%;
+  }
+  .leftbottonsunactivehlw {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .onevison p {
+    width: 100%;
+    /* padding: 10px; */
+  }
+
+  .rightjour {
+    margin-left: 10%;
+  }
+  .maininvest {
+    margin: 0px 60px;
+  }
+  .mainteam {
+    padding: 0rem;
+  }
+  .rotag {
+    width: 80%;
+  }
+  .valuesss {
+    padding: 50px;
+    flex-direction: column;
+  }
+  .value p {
+    width: 100%;
+  }
+  .leftjourn {
+    padding: 10px;
+  }
+  .vertical {
+    display: none;
+  }
+  .rightabout {
+    margin-left: 38%;
+    /* width: 50%; */
+  }
+
+  .men {
+    /* z-index: 80;
+      left: 18%; */
+    width: 20%;
+  }
+  .headinves {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .cardteam {
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .onevison p {
+    width: 100%;
+    /* padding: 10px; */
+  }
+
+  .rightjour {
+    margin-left: 10%;
+  }
+  .maininvest {
+    margin: 0px 60px;
+  }
+  .mainteam {
+    padding: 0rem;
+  }
+  .rotag {
+    width: 80%;
+  }
+  .valuesss {
+    padding: 50px;
+    flex-direction: column;
+  }
+  .value p {
+    width: 100%;
+  }
+  .leftjourn {
+    padding: 10px;
+  }
+  .vertical {
+    display: none;
+  }
+  .rightabout {
+    margin-left: 38%;
+    /* width: 50%; */
+  }
+
+  .men {
+    /* z-index: 80;
+      left: 18%; */
+    width: 20%;
+  }
+  .headinves {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .cardteam {
+    flex-wrap: wrap;
+  }
+}

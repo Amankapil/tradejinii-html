@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Gilroy:wght@300;400;500;700&display=swap");
+
+* {
+  /* background-color: #000;
+  background-color: #fff; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: white; */
+}
+
+.serchicon {
+  display: none;
+}
+.hamburg {
+  display: none;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  margin: 14px 0 0 0px;
+}
+/* .hero {
+  height: 300px;
+  width: 100%;
+} */
+.hero-content {
+  color: white;
+  position: relative;
+  overflow: hidden;
+  /* background: rgba(0, 0, 0, 0.05); */
+  height: 800px;
+
+  background: #000;
+  backdrop-filter: blur(41.3227px);
+}
+.header {
+  /* background: #fff; */
+  border-radius: 20px;
+  z-index: 99;
+  padding: 10px;
+  margin-top: 10px;
+  /* width: 1200px;| */
+}
+
+.header::after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  background: rgba(248, 251, 248, 0.9);
+  /* width: 961px; */
+  width: 1408.49px;
+  height: 56px;
+  /* padding: 20px; */
+  /* margin-left: -80px; */
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.hero-content::before {
+  content: "";
+  position: absolute;
+  top: -10;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../../assets/BLOB\ ANIMATION.gif");
+  /* background: url("./assets/Glass.png"); */
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  inset: 0;
+  background-size: 1840px;
+
+  filter: blur(10px);
+
+  z-index: -1;
+}
+
+.item {
+  margin: 10px 20px;
+  color: #000;
+}
+/* dropdown */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* background-color: #f9f9f9; */
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 65%;
+  left: 40%;
+  /* margin-top: 20px; */
+  width: 175px;
+  height: 144px;
+
+  background: rgba(248, 251, 248, 0.9);
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.84px);
+  border-radius: 14px;
+}
+
+.dropdown-content a {
+  margin: 6px;
+}
+
+.dropw:hover .dropdown-content {
+  display: block;
+}
+
+.nav_section {
+  z-index: 99;
+}
+
+.serachs input {
+  padding: 7px 21px;
+  gap: 10px;
+  margin-top: 10px;
+  width: 253px;
+  height: 35px;
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.loginn {
+  padding: 6px 11px;
+  gap: 10px;
+  width: 101px;
+  height: 38px;
+  font-size: 15px;
+  background: linear-gradient(180deg, #0b224e -140%, #01787b 93.61%);
+  box-shadow: 0px 0px 15.7636px rgba(56, 185, 144, 0.5);
+  border-radius: 34px;
+  color: #ffffff;
+}
+
+.hamburg {
+  display: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+}
+
+@media (max-width: 1100px) {
+  .header {
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+  }
+  .hamburg {
+    display: block;
+  }
+  .items {
+    display: none;
+  }
+
+  .serachs {
+    /* display: none; */
+  }
+
+  .login_btn {
+    /* display: none; */
+  }
+
+  .header::after {
+    width: 98%;
+  }
+
+  .logo {
+    margin: 14px 0 0 8px;
+  }
+}
+
+@media (max-width: 560px) {
+  .serachs {
+    display: none;
+  }
+  .serchicon {
+    /* height: 44px; */
+    width: 34px;
+    display: block;
+    /* position: absolute; */
+    right: 8%;
+  }
+  .serchicon img {
+    /* height: 44px; */
+    width: 24px;
+    top: 14px;
+    display: block;
+    position: absolute;
+    right: 15%;
+    /* margin-top: 10px; */
+  }
+
+  .logo {
+    margin: 11px 0 0 9px;
+  }
+  .button_signup {
+    width: 100%;
+    padding: 10px;
+  }
+  .signupp {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .logo {
+    margin: 11px 0 0 9px;
+  }
+  .button_signup {
+    width: 100%;
+    padding: 10px;
+  }
+  .signupp {
+    width: 100%;
+  }
+  .login_btn {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .logo {
+    margin: 14px 0 0 10px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+}

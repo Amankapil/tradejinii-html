@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Gilroy:wght@300;400;500;700&display=swap");
+
+* {
+  /* background-color: #000;
+  background-color: #fff; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: white; */
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.reviwe1 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 48px 58px 81px;
+  gap: 10px;
+
+  width: 684px;
+  height: 355.97px;
+
+  background: #ffffff;
+  border: 3.21027px solid #ffffff;
+  box-shadow: 7.49062px 12.8411px 44.9437px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(0.535044px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 46.0138px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.info span {
+  width: 123px;
+  height: 30px;
+
+  /* font-family: "Inter"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 148.52%;
+  /* identical to box height, or 30px */
+
+  color: #595959;
+
+  opacity: 0.8;
+}
+
+.chirag img {
+  padding: 3px;
+}
+
+.peratest p {
+  width: 568px;
+  height: 108px;
+
+  /* font-family: 'Inter'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 136.52%;
+  /* or 27px */
+
+  color: #595959;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.maintest {
+  width: 800px;
+  height: 500px;
+  overflow: hidden;
+}
+.test {
+  overflow: hidden;
+}
+
+.indise {
+  position: absolute;
+  right: 0;
+  left: 0;
+  /* overflow: hidden; */
+
+  /* width: 1200px; */
+  /* position: absolute; */
+  /* animation: moveLeftRighttest 20s linear infinite; */
+}
+.animag {
+  width: 1000px;
+  height: 500px;
+}
+
+/* /////////////////////testimoials=========================== */
+
+.teshead {
+  /* H2 */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 130%;
+  /* identical to box height, or 52px */
+
+  display: flex;
+  align-items: center;
+
+  /* black */
+
+  color: #151515;
+}
+
+.testimonialpera {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  text-align: center;
+  color: #2b303a;
+}
+.avito {
+  width: 330px;
+  height: 478.64px;
+  margin: 0;
+}
+.doad {
+  width: 575px;
+  height: 213.82px;
+}
+.cardstest {
+  width: 100%;
+
+  /* height: 213.82px; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.istak {
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+  border: 1px solid #e9ecf2;
+  background: #ffffff;
+  /* small items */
+
+  box-shadow: 0px 13px 17px rgba(6, 68, 6, 0.1);
+  border-radius: 16px;
+  filter: drop-shadow(0px 3.84083px 20.1644px rgba(157, 175, 181, 0.25));
+  margin: 20px;
+}
+
+.peratestimon {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+
+  color: #232527;
+}
+.ceoname {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.4429px;
+  line-height: 20px;
+  color: #293238;
+}
+
+.ceoname span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13.4429px;
+  line-height: 20px;
+  color: #7d7a7a;
+}
+
+.swiper-scrollbar {
+  display: none;
+}
+
+.upimgraul {
+  width: 271.63px;
+  height: 359.47px;
+  background: url("../../assets/SrsIBiJPpxs.png");
+  background-repeat: no-repeat;
+}
+
+.itemrahul {
+  width: 350px;
+}
+
+.rahuldube {
+  /* width: 540px; */
+  height: 254.46px;
+
+  border: 1px solid #e9ecf2;
+  filter: drop-shadow(0px 3.84083px 20.1644px rgba(157, 175, 181, 0.25));
+  border-radius: 15.3633px;
+}
+
+.chiragrahul {
+  width: 119.86px;
+  height: 11.73px;
+}
+.swiper-slide {
+  display: flex;
+  transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.swiper {
+  /* padding: 40px; */
+  width: 100%;
+  height: 700px;
+}
+
+/* /////////////////////testimoials=========================== */

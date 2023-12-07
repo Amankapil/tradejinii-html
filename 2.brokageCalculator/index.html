@@ -1,0 +1,1579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+    <title>Brockrage calcu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet"
+        href="brokagecal.css" />
+
+
+</head>
+
+<body>
+    <section class="max[]">
+        <nav class="flex fixed top-0 w-full justify-around items-center mx24 header max-md:justify-between">
+            <div class="logo">
+                <img src="./brokagecal/finallogo.svg"
+                    alt="j" />
+            </div>
+
+            <div class="items mt-2">
+                <ul class="list flex mt6">
+                    <li class="item">About</li>
+                    <li class="item">Product</li>
+                    <li class="item">Pricing</li>
+                    <li class="item">Media</li>
+                    <li class="item">Support</li>
+                </ul>
+            </div>
+
+
+            <center class="serchicon">
+                <img class="-ml10 mt-3 serchicin"
+                    src="./brokagecal/search.svg"
+                    alt="">
+            </center>
+
+            <div class="serachs ml-20 max-[1100px]:ml-0">
+                <div class="flex items-center justify-center">
+                    <input type="text"
+                        id="searchInput"
+                        placeholder="Search..." />
+                    <img class="-ml-10 mt-3"
+                        src="./brokagecal/search.svg"
+                        alt="">
+                </div>
+
+                <div class="bg-black"
+                    id="searchResults"></div>
+            </div>
+
+            <div class="login_btn mt-3 -ml24">
+                <button class="login -ml-24  max-[1100px]:ml-0">
+                    Sign Up
+                </button>
+            </div>
+
+            <div class="hamburg mt-3"
+                id="hamburg">
+                <img src="./brokagecal/hamburger.svg"
+                    alt="">
+            </div>
+        </nav>
+    </section>
+
+    <div class="maincontainerbox bg-[#f8fbf8]">
+        <div class="namecontainer mb-12 pt-32">
+            Brokerage Calculator
+        </div>
+
+        <div class="tabs pb-8">
+            <div class="tab active"
+                data-tab="tab1">Equities & F&O</div>
+            <div class="tab"
+                data-tab="tab2">Currency</div>
+            <div class="tab"
+                data-tab="tab3">Commodities</div>
+
+        </div>
+
+
+        <div class="tab-content active bg-[#f8fbf8]"
+            id="tab1">
+
+
+            <div class="flex  items-start justify-center">
+                <div class="equitybox mx-4">
+                    <div class="hequity">
+                        Equity Intraday
+                    </div>
+                    <div class="buysell flex items-center">
+                        <div class="buysectoin m-">
+                            <span class="buy">
+                                Buy
+                            </span>
+                            <input placeholder="250"
+                                type="text"
+                                class="buyinput">
+                        </div>
+                        <div class="buysectoin mx">
+                            <span class="buy">
+                                Sell
+                            </span>
+                            <input placeholder="250"
+                                type="text"
+                                class="buyinput">
+                        </div>
+                        <div class="buysectoin m-">
+                            <span class="buy">
+                                Quantity
+                            </span>
+                            <input placeholder="250"
+                                type="text"
+                                class="buyinput">
+                        </div>
+                    </div>
+
+
+                    <div class="radiosec -mt-4 relative">
+                        <div class="byS relative">
+                            <div class="mx-3 flex">
+
+
+                                <input type="radio"
+                                    id="radio1"
+                                    name="radioGroup11"
+                                    checked>
+                                <label class="sell"
+                                    for="radio1">NSE</label>
+                            </div>
+                            <div class="mx-3 flex">
+                                <input type="radio"
+                                    id="radio2"
+                                    name="radioGroup11">
+                                <label class="sell"
+                                    for="radio2">BSE</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="brokelist  w-full ">
+                        <div class="listsss flex items-center justify-center">
+                            <ul>
+                                <li class="displaycont">
+                                    <p class="brokname">
+                                        Brokerage
+                                    </p>
+                                    <p class="numberbrok">
+                                        40
+                                    </p>
+                                </li>
+                                <li class="displaycont">
+                                    <p class="brokname">
+                                        Turnover
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="displaycont">
+                                    <p class="brokname">
+                                        BEP
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.1
+                                    </p>
+                                </li>
+                                <li class="displaycont">
+                                    <p class="brokname">
+                                        Total Charges
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+
+
+                                <ul class="hidecont hide1">
+
+
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            Total Trans change
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            SEBI Charges
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            CTT
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            Turnover
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            Points to Breakeven
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            GST
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            STAMP Charges
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <li class="displaycont">
+                                    <p class="profit">
+                                        Profit
+                                    </p>
+                                    <p class="pronum">
+                                        0
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div id="showButton"
+                        onclick="toggleList()"
+                        class="seebutton">
+                        <button>
+                            <p id="text1"
+                                style="display: block;">
+
+                                See all charges
+                            </p>
+                            <p id="text2"
+                                style="display: none;">
+
+                                Hide all charges
+                            </p>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="equitybox mx-4">
+                    <div class="hequity">
+                        Equity Intraday
+                    </div>
+
+
+                    <div class="buysell flex items-center">
+                        <div class="buysectoin m-">
+                            <span class="buy">
+                                Buy
+                            </span>
+                            <input placeholder="250"
+                                type="text"
+                                class="buyinput">
+                        </div>
+                        <div class="buysectoin mx">
+                            <span class="buy">
+                                Sell
+                            </span>
+                            <input placeholder="250"
+                                type="text"
+                                class="buyinput">
+                        </div>
+                        <div class="buysectoin m-">
+                            <span class="buy">
+                                Quantity
+                            </span>
+                            <input placeholder="250"
+                                type="text"
+                                class="buyinput">
+                        </div>
+                    </div>
+
+
+                    <div class="radiosec -mt-4">
+                        <div class="byS">
+                            <div class="mx-3 flex">
+
+
+                                <input type="radio"
+                                    id="radio1264534"
+                                    name="radioGroup12"
+                                    checked>
+                                <label class="sell"
+                                    for="radio1264534">NSE</label>
+                            </div>
+                            <div class="mx-3 flex">
+                                <input type="radio"
+                                    id="radio25344"
+                                    name="radioGroup12">
+                                <label class="sell"
+                                    for="radio25344">BSE</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="brokelist  w-full ">
+                        <div class="listsss flex items-center justify-center">
+                            <ul>
+                                <li class="displaycont">
+                                    <p class="brokname">
+                                        Brokerage
+                                    </p>
+                                    <p class="numberbrok">
+                                        40
+                                    </p>
+                                </li>
+                                <li class="displaycont">
+                                    <p class="brokname">
+                                        Turnover
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="displaycont">
+                                    <p class="brokname">
+                                        BEP
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.1
+                                    </p>
+                                </li>
+                                <li class="displaycont">
+                                    <p class="brokname">
+                                        Total Charges
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+
+
+                                <ul class="hidecont hide2" style="display:none">
+
+
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            Total Trans change
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            SEBI Charges
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            CTT
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            Turnover
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            Points to Breakeven
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            GST
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            STAMP Charges
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <li class="displaycont">
+                                    <p class="profit">
+                                        Profit
+                                    </p>
+                                    <p class="pronum">
+                                        0
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div id="showButton"
+                        onclick="toggleList2()"
+                        class="seebutton">
+                    
+                            <p id="text3"
+                            class="hhh"
+                                style="display: block;">
+                                See all charges
+                            </p>
+                            <p id="text4"
+                            class="hhh"
+                                style="display: none;">
+                                <a class="jhkjdlja" href="https://tradejini.com/fund-transferpage/#bank-list">
+
+                                    Hide all Banks
+                                </a>
+                            </p>
+                       
+                    </div>
+                </div>
+                <div class="equitybox mx-4">
+                    <div class="hequity">
+                        Equity Intraday
+                    </div>
+
+
+                    <div class="buysell flex items-center">
+                        <div class="buysectoin m-">
+                            <span class="buy">
+                                Buy
+                            </span>
+                            <input placeholder="250"
+                                type="text"
+                                class="buyinput">
+                        </div>
+                        <div class="buysectoin mx">
+                            <span class="buy">
+                                Sell
+                            </span>
+                            <input placeholder="250"
+                                type="text"
+                                class="buyinput">
+                        </div>
+                        <div class="buysectoin m-">
+                            <span class="buy">
+                                Quantity
+                            </span>
+                            <input placeholder="250"
+                                type="text"
+                                class="buyinput">
+                        </div>
+                    </div>
+
+
+                    <div class="radiosec -mt-4">
+                        <div class="byS">
+                            <div class="mx-3 flex">
+
+
+                                <input type="radio"
+                                    id="radio14532"
+                                    name="radiofadsfasGroup123"
+                                    checked>
+                                <label class="sell"
+                                    for="radio14532">NSE</label>
+                            </div>
+                            <div class="mx-3 flex">
+                                <input type="radio"
+                                    id="radio234"
+                                    name="radiofadsfasGroup123">
+                                <label class="sell"
+                                    for="radio234">BSE</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+                    <div class="brokelist  w-full ">
+                        <div class="listsss flex items-center justify-center">
+                            <ul>
+                                <li class="displaycont">
+                                    <p class="brokname">
+                                        Brokerage
+                                    </p>
+                                    <p class="numberbrok">
+                                        40
+                                    </p>
+                                </li>
+                                <li class="displaycont">
+                                    <p class="brokname">
+                                        Turnover
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="displaycont">
+                                    <p class="brokname">
+                                        BEP
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.1
+                                    </p>
+                                </li>
+                                <li class="displaycont">
+                                    <p class="brokname">
+                                        Total Charges
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+
+
+                                <ul class="hidecont hidew">
+
+
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            Total Trans change
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            SEBI Charges
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            CTT
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            Turnover
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            Points to Breakeven
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            GST
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            STAMP Charges
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <li class="displaycont">
+                                    <p class="profit">
+                                        Profit
+                                    </p>
+                                    <p class="pronum">
+                                        0
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div id="showButton"
+                        onclick="toggleList3()"
+                        class="seebutton">
+                        <button>
+                            <p id="text5"
+                                style="display: block;">
+
+                                See all charges
+                            </p>
+                            <p id="text6"
+                                style="display: none;">
+
+                                Hide all charges
+                            </p>
+                        </button>
+                    </div>
+                </div>
+                <div class="equitybox mx-4">
+                    <div class="hequity">
+                        Equity Intraday
+                    </div>
+
+
+                    <div class="buysell flex items-center">
+                        <div class="buysectoin m-">
+                            <span class="buy">
+                                Buy
+                            </span>
+                            <input placeholder="250"
+                                type="text"
+                                class="buyinput">
+                        </div>
+                        <div class="buysectoin mx">
+                            <span class="buy">
+                                Sell
+                            </span>
+                            <input placeholder="250"
+                                type="text"
+                                class="buyinput">
+                        </div>
+                        <div class="buysectoin m-">
+                            <span class="buy">
+                                Quantity
+                            </span>
+                            <input placeholder="250"
+                                type="text"
+                                class="buyinput">
+                        </div>
+                    </div>
+
+                    <div class="radiosec -mt-4">
+                        <div class="byS">
+                            <div class="mx-3 flex">
+
+
+                                <input type="radio"
+                                    id="radio12"
+                                    name="radioGroupdsfadsf1fd2"
+                                    checked>
+                                <label class="sell"
+                                    for="radio12">NSE</label>
+                            </div>
+                            <div class="mx-3 flex">
+                                <input type="radio"
+                                    id="radio253425"
+                                    name="radioGroupdsfadsf1fd2">
+                                <label class="sell"
+                                    for="radio253425">BSE</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="brokelist  w-full ">
+                        <div class="listsss flex items-center justify-center">
+                            <ul>
+                                <li class="displaycont">
+                                    <p class="brokname">
+                                        Brokerage
+                                    </p>
+                                    <p class="numberbrok">
+                                        40
+                                    </p>
+                                </li>
+                                <li class="displaycont">
+                                    <p class="brokname">
+                                        Turnover
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="displaycont">
+                                    <p class="brokname">
+                                        BEP
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.1
+                                    </p>
+                                </li>
+                                <li class="displaycont">
+                                    <p class="brokname">
+                                        Total Charges
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+
+
+                                <ul class="hidecont hide4">
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            Total Trans change
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            SEBI Charges
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            CTT
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            Turnover
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            Points to Breakeven
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            GST
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                    <li class="showlisttt">
+                                        <p class="brokname">
+                                            STAMP Charges
+                                        </p>
+                                        <p class="numberbrok">
+                                            0.46
+                                        </p>
+                                    </li>
+                                </ul>
+                                <li class="displaycont">
+                                    <p class="profit">
+                                        Profit
+                                    </p>
+                                    <p class="pronum">
+                                        0
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div id="showButton"
+                        onclick="toggleList4()"
+                        class="seebutton">
+                        <button>
+                            <p id="text7"
+                                style="display: block;">
+
+                                See all charges
+                            </p>
+                            <p id="text8"
+                                style="display: none;">
+
+                                Hide all charges
+                            </p>
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="tab-content bg-[#f8fbf8]"
+        id="tab2">
+
+        <div class="flex  items-start justify-center">
+        <div class="equitybox mx-4">
+                <div class="hequity">
+                    Equity Intraday
+                </div>
+                <div class="buysell flex items-center">
+                    <div class="buysectoin m-">
+                        <span class="buy">
+                            Buy
+                        </span>
+                        <input placeholder="250"
+                            type="text"
+                            class="buyinput">
+                    </div>
+                    <div class="buysectoin mx">
+                        <span class="buy">
+                            Sell
+                        </span>
+                        <input placeholder="250"
+                            type="text"
+                            class="buyinput">
+                    </div>
+                    <div class="buysectoin m-">
+                        <span class="buy">
+                            Quantity
+                        </span>
+                        <input placeholder="250"
+                            type="text"
+                            class="buyinput">
+                    </div>
+                </div>
+                <div class="radiosec -mt-4">
+                    <div class="byS">
+                        <div class="mx-3 flex">
+                            <input type="radio"
+                                id="radijdsafjo12"
+                                name="radioGroup1fdasffd2"
+                                checked>
+                            <label class="sell"
+                                for="radijdsafjo12">NSE</label>
+                        </div>
+                        <div class="mx-3 flex">
+                            <input type="radio"
+                                id="jhdflka"
+                                name="radioGroup1fdasffd2">
+                            <label class="sell"
+                                for="jhdflka">BSE</label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="brokelist  w-full ">
+                    <div class="listsss flex items-center justify-center">
+                        <ul>
+                            <li class="displaycont">
+                                <p class="brokname">
+                                    Brokerage
+                                </p>
+                                <p class="numberbrok">
+                                    40
+                                </p>
+                            </li>
+                            <li class="displaycont">
+                                <p class="brokname">
+                                    Turnover
+                                </p>
+                                <p class="numberbrok">
+                                    0.46
+                                </p>
+                            </li>
+                            <li class="displaycont">
+                                <p class="brokname">
+                                    BEP
+                                </p>
+                                <p class="numberbrok">
+                                    0.1
+                                </p>
+                            </li>
+                            <li class="displaycont">
+                                <p class="brokname">
+                                    Total Charges
+                                </p>
+                                <p class="numberbrok">
+                                    0.46
+                                </p>
+                            </li>
+
+
+                            <ul class="hidecont hide5">
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        Total Trans change
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        SEBI Charges
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        CTT
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        Turnover
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        Points to Breakeven
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        GST
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        STAMP Charges
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                            </ul>
+
+                            <li class="displaycont">
+                                <p class="profit">
+                                    Profit
+                                </p>
+                                <p class="pronum">
+                                    0
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div id="showButton"
+                    onclick="toggleList5()"
+                    class="seebutton">
+                    <button>
+                        <p id="text13"
+                            style="display: block;">
+
+                            See all charges
+                        </p>
+                        <p id="text14"
+                            style="display: none;">
+
+                            Hide all charges
+                        </p>
+                    </button>
+                </div>
+            </div>
+            <div class="equitybox mx-4">
+                <div class="hequity">
+                    Equity Intraday
+                </div>
+                <div class="buysell flex items-center">
+                    <div class="buysectoin m-">
+                        <span class="buy">
+                            Buy
+                        </span>
+                        <input placeholder="250"
+                            type="text"
+                            class="buyinput">
+                    </div>
+                    <div class="buysectoin mx">
+                        <span class="buy">
+                            Sell
+                        </span>
+                        <input placeholder="250"
+                            type="text"
+                            class="buyinput">
+                    </div>
+                    <div class="buysectoin m-">
+                        <span class="buy">
+                            Quantity
+                        </span>
+                        <input placeholder="250"
+                            type="text"
+                            class="buyinput">
+                    </div>
+                </div>
+                <div class="radiosec -mt-4">
+                    <div class="byS">
+                        <div class="mx-3 flex">
+                            <input type="radio"
+                                id="rao12"
+                                name="radiofdsafaGroup1fd2"
+                                checked>
+                            <label class="sell"
+                                for="rao12">NSE</label>
+                        </div>
+                        <div class="mx-3 flex">
+                            <input type="radio"
+                                id="jhdfkfdsahalka"
+                                name="radiofdsafaGroup1fd2">
+                            <label class="sell"
+                                for="jhdfkfdsahalka">BSE</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="brokelist  w-full ">
+                    <div class="listsss flex items-center justify-center">
+                        <ul>
+                            <li class="displaycont">
+                                <p class="brokname">
+                                    Brokerage
+                                </p>
+                                <p class="numberbrok">
+                                    40
+                                </p>
+                            </li>
+                            <li class="displaycont">
+                                <p class="brokname">
+                                    Turnover
+                                </p>
+                                <p class="numberbrok">
+                                    0.46
+                                </p>
+                            </li>
+                            <li class="displaycont">
+                                <p class="brokname">
+                                    BEP
+                                </p>
+                                <p class="numberbrok">
+                                    0.1
+                                </p>
+                            </li>
+                            <li class="displaycont">
+                                <p class="brokname">
+                                    Total Charges
+                                </p>
+                                <p class="numberbrok">
+                                    0.46
+                                </p>
+                            </li>
+
+
+                            <ul class="hidecont hide6">
+
+
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        Total Trans change
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        SEBI Charges
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        CTT
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        Turnover
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        Points to Breakeven
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        GST
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        STAMP Charges
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                            </ul>
+
+                            <li class="displaycont">
+                                <p class="profit">
+                                    Profit
+                                </p>
+                                <p class="pronum">
+                                    0
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="showButton"
+                    onclick="toggleList6()"
+                    class="seebutton">
+                    <button>
+                        <p id="text9"
+                            style="display: block;">
+
+                            See all charges
+                        </p>
+                        <p id="text10"
+                            style="display: none;">
+
+                            Hide all charges
+                        </p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-content bg-[#f8fbf8]"
+        id="tab3">
+        <div class="flex  items-center justify-center">
+
+            <div class="equitybox mx-4">
+                <div class="hequity">
+                    Equity Intraday
+                </div>
+
+                <div class="commodity">
+                    <div class="buysectoin m-">
+                        <span class="buy">
+                            Commodity
+                        </span>
+                        <select id="mySelect">
+                            <option value="default"
+                                selected>Aluminum</option>
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="buysell flex items-center">
+                    <div class="buysectoin m-">
+                        <span class="buy">
+                            Buy
+                        </span>
+                        <input placeholder="250"
+                            type="text"
+                            class="buyinput">
+                    </div>
+                    <div class="buysectoin mx">
+                        <span class="buy">
+                            Sell
+                        </span>
+                        <input placeholder="250"
+                            type="text"
+                            class="buyinput">
+                    </div>
+                    <div class="buysectoin m-">
+                        <span class="buy">
+                            Quantity
+                        </span>
+                        <input placeholder="250"
+                            type="text"
+                            class="buyinput">
+                    </div>
+                </div>
+
+
+                <div class="radiosec -mt-4">
+                    <div class="byS">
+                        <div class="mx-3 flex">
+
+
+                            <input type="radio"
+                                id="raofakdjsak12"
+                                name="jlhdfkaj"
+                                checked>
+                            <label class="sell"
+                                for="raofakdjsak12">NSE</label>
+                        </div>
+                        <div class="mx-3 flex">
+                            <input type="radio"
+                                id="jhdfkfdfdsafasahalka"
+                                name="jlhdfkaj">
+                            <label class="sell"
+                                for="jhdfkfdfdsafasahalka">BSE</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="brokelist  w-full ">
+                    <div class="listsss flex items-center justify-center">
+                        <ul>
+                            <li class="displaycont">
+                                <p class="brokname">
+                                    Brokerage
+                                </p>
+                                <p class="numberbrok">
+                                    40
+                                </p>
+                            </li>
+                            <li class="displaycont">
+                                <p class="brokname">
+                                    Turnover
+                                </p>
+                                <p class="numberbrok">
+                                    0.46
+                                </p>
+                            </li>
+                            <li class="displaycont">
+                                <p class="brokname">
+                                    BEP
+                                </p>
+                                <p class="numberbrok">
+                                    0.1
+                                </p>
+                            </li>
+                            <li class="displaycont">
+                                <p class="brokname">
+                                    Total Charges
+                                </p>
+                                <p class="numberbrok">
+                                    0.46
+                                </p>
+                            </li>
+
+
+                            <ul class="hidecont hide7">
+
+
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        Total Trans change
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        SEBI Charges
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        CTT
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        Turnover
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        Points to Breakeven
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        GST
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                                <li class="showlisttt">
+                                    <p class="brokname">
+                                        STAMP Charges
+                                    </p>
+                                    <p class="numberbrok">
+                                        0.46
+                                    </p>
+                                </li>
+                            </ul>
+
+                            <li class="displaycont">
+                                <p class="profit">
+                                    Profit
+                                </p>
+                                <p class="pronum">
+                                    0
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div id="showButton"
+                    onclick="toggleList7()"
+                    class="seebutton">
+                    <button>
+                        <p id="text11"
+                            style="display: block;">
+
+                            See all charges
+                        </p>
+                        <p id="text12"
+                            style="display: none;">
+
+                            Hide all charges
+                        </p>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <section class="invest bg-[#F8FBF8] mt10">
+        <div class="maininvest flex justify-center items-center">
+            <div class="headinves p10 flex justify-center items-center  :flex-col">
+                <div class="flex justify-center items- flex-col">
+                    <h1>Start investing now!</h1>
+                    <p>
+                        Online platform to invest in stocks, derivatives, mutual funds,
+                        and more
+                    </p>
+                </div>
+                <div class="button_signup">
+                    <button class="signupp ">
+                        <span> Sign up </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="downlinks">
+        <div class="mainlinks flex items-center justify-around p-12">
+            <div class="company">
+                <h3 class="com">
+                    Company
+                </h3>
+                <ul class="fle">
+                    <li class="fotterlink">About us</li>
+                    <li class="fotterlink">Products</li>
+                    <li class="fotterlink">Pricing</li>
+                    <li class="fotterlink">Career</li>
+                </ul>
+            </div>
+            <div class="company">
+                <h3 class="com">
+                    Support
+                </h3>
+                <ul class="fle">
+                    <li class="fotterlink">Support Portal</li>
+                    <li class="fotterlink">Contact Us</li>
+                    <li class="fotterlink">Investors Corner</li>
+                    <li class="fotterlink">Partner</li>
+                </ul>
+            </div>
+            <div class="company">
+                <h3 class="com">
+                    Tools
+                </h3>
+                <ul class="fle">
+                    <li class="fotterlink1">Brokerage Calculator</li>
+                    <li class="fotterlink1">Margin Calculator</li>
+                    <li class="fotterlink1">Referral Calculator</li>
+                    <li class="fotterlink1"></li>
+                </ul>
+            </div>
+            <div class="company">
+                <h3 class="com">
+                    Downloads
+                </h3>
+                <ul class="fle">
+                    <li class="fotterlink">Forms</li>
+                    <li class="fotterlink">Software</li>
+                    <li class="fotterlink">Charges</li>
+                    <li class="fotterlink">Holidays</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="f2 relative">
+        <div class="footer2 p-6  :p-0  :pt-3">
+            <div class="footerlog flex my-10">
+                <img class="footerlogcla"
+                    src="./brokagecal/logomain.svg"
+                    alt="logo">
+            </div>
+            <div class="footerbottom  :flex-col">
+
+                <div class="textfooter">
+                    <h1 class="tfooterltd mb-6">Tradejini Financial Services Pvt Ltd</h1>
+                    <h1>Corporate Office</h1>
+                    <div class="mb-6">
+                        Vasavi Square, 2nd Floor, No.75/757, 10th Main Road, 4th Block,
+                        Jayanagar, Bangalore – 560011.Contact No : +91-80-40204020
+                        Email : help@tradejini.com
+                    </div>
+                    <h1>Regd Office</h1>
+                    <div class="mb-6">
+                        Suvas,No 4, Shankarmutt Road, 3rd Cross, Shankarpuram,
+                        Bangalore – 560004.
+                    </div>
+                    <h1>Sales Office</h1>
+                    <div class="mb-6">
+                        223, Vijay Enclave, 2nd Floor, TV Swamy Road East, R.S. Puram,
+                        Coimbatore, Tamil Nadu – 641002.
+                        Contact No : +91-422-4357170
+                    </div>
+
+                </div>
+                <div class="textfooteraction">
+                    <div class="mb-5">
+                        SEBI REGISTRATION NO.: INZ000160938
+                        (NSE: CM-FO-CD | BSE: CM-FO-CD | MCX: FO | MSEI: CM-FO-CD)
+                        CDSL Depository Participant: IN-DP-470-2020
+                        Mutual Fund ARN : 87156
+                    </div>
+                    <div class="mb-5">
+                        Please ensure you carefully read the Risk Disclosure
+                        Documents as prescribed by SEBI. For any complaints
+                        email at complaints @ tradejini.com
+                    </div>
+
+                    <div class="tools mb-5 flex max-">
+                        <button class="fbtns">BSE</button>
+                        <button class="fbtns">NSE</button>
+                        <button class="fbtns">MSEI </button>
+                        <button class="fbtns">MCX </button>
+                        <button class="fbtns">CDSL </button>
+                        <button class="fbtns">India INX </button>
+                    </div>
+                    <div class="socialmedia flex items-center -center">
+                        <h1 class="mt2 max-sm:text-xl">Follow us on</h1>
+                        <img src="./brokagecal/twitter.svg"
+                            alt="">
+                        <img src="./brokagecal/youtube.svg"
+                            alt="">
+                        <img src="./brokagecal/facebook.svg"
+                            alt="">
+                        <img src="./brokagecal/linkedin.svg"
+                            alt="">
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="last pr-8">
+                <p class="mb-4"> More: Policy and Procedures | PMLA | Data Classification and protection | Sample
+                    Contract Note</p>
+                <h1 class="mb-4"> Attention Investors</h1>
+                <p>Prevent Unauthorized Transactions in your trading/demat account Update your Mobile Number/Email IDs
+                    with your Stock brokers/Depository Participant.Receive alerts/information of your transactions on
+                    your Registered Mobile/Email for all debit and other important transactions in your trading/demat
+                    account directly from Exchange/CDSL on the same day”.</p>
+                <p>“KYC is one time exercise while dealing in securities markets – once KYC is done through a SEBI
+                    registered intermediary (broker, DP, Mutual Fund etc.),you need not undergo the same process again
+                    when you approach another intermediary.”</p>
+                <p>No need to issue cheques by investors while subscribing to IPO.Just write the bank account number and
+                    sign in the application form to authorise your bank to make payment in case of allotment.No worry
+                    for refund as the money remains in investor’s account.</p>
+                <p>This is to inform you as per Rules, Regulations and Bye-laws of Multi Commodity Exchange of India Ltd
+                    (MCX),that we do clientbased trading and proprietary trading.</p>
+                <p>Procedure to file a complaint on SCORES (Easy & quick). Register on SCORES portal and have the
+                    mandatory details for filing complaints on SCORES (Name, PAN, Address, Mobile Number and E-mail ID).
+                    Benefits: Effective Communication and Speedy redressal of the grievances.</p>
+                <p>Stock Brokers can accept securities as margin from clients only by way of pledge in the depository
+                    system w.e.f. September 01, 2020 Update your email id and mobile number with your stock broker /
+                    depository participant and receive OTP directly from depository on your email id and/or mobile
+                    number to create pledgeCheck your securities / MF / bonds in the consolidated account statement
+                    issued by NSDL/CDSL every month.</p>
+                <div class="last2 pr-16 pl-0 max-sm:pr-0">
+                    <p>Made with <span class="mx-2"
+                            style="color: red;">&#10084;</span> in Bharath @2023 Tradejini | All Rights
+                        Reserved</p>
+                    <p class="max-md:hidden">Disclaimer | Copyright Policy | Fraud Prevention | Privacy Policy</p>
+                </div>
+            </div>
+
+    </footer>
+
+
+
+
+    <script src="./broke.js"></script>
+</body>
+
+</html>

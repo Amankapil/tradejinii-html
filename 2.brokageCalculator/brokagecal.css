@@ -1,0 +1,604 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.serchicon {
+  display: none;
+}
+
+.logo {
+  margin: 11px 0 0 -0px;
+  /* margin-left: 0px;
+  margin-top: 7px;
+  margin-right: 0px; */
+}
+
+.serchicon {
+  display: none;
+}
+.hamburg {
+  display: none;
+}
+.items ul li {
+  list-style: none;
+}
+
+.header {
+  border-radius: 20px;
+  z-index: 99;
+  padding: 5px;
+  margin-top: 10px;
+}
+.header::after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  background: rgba(248, 251, 248, 0.9);
+  width: 93%;
+  height: 56px;
+  text-align: right;
+  margin: 0 5 0px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.item {
+  margin: 10px 20px;
+  color: #000;
+}
+.nav_section {
+  z-index: 99;
+}
+
+.serachs input {
+  padding: 7px 15px;
+  gap: 10px;
+  margin-top: 10px;
+  width: 203px;
+  height: 35px;
+
+  background: #ffffff;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+.dot {
+  font-size: 40px;
+  margin-top: -22px;
+  border-radius: 50%;
+  color: rgba(35, 172, 128, 1);
+}
+
+.login {
+  padding: 9px 20px;
+  gap: 10px;
+
+  width: 101px;
+  height: 38px;
+  color: #fff;
+
+  background: linear-gradient(180deg, #0b224e -140%, #01787b 93.61%);
+
+  box-shadow: 0px 0px 15.7636px rgba(56, 185, 144, 0.5);
+  border-radius: 34px;
+}
+
+.button_signup {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ////////////////////////////////////////////////// */
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.tab {
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #0e0e0e;
+  font-size: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 158.523%;
+  opacity: 0.699999988079071;
+}
+
+.tab.active {
+  color: #fff;
+  font-size: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 158.523%;
+  border-radius: 11px;
+  background: var(--web-green, #118b64);
+  opacity: 1;
+}
+
+.tab-content {
+  display: none;
+  padding: 10px;
+}
+
+.tab-content.active {
+  display: block;
+  height: 100%;
+}
+
+.tab-content table {
+  width: 100%;
+}
+
+/* ///////////////////////////////////////////////////// */
+
+/*------------------------------------- new desing? */
+
+.equitybox {
+  /* width: 270px; */
+  display: flex;
+  padding: 33px 16px 29px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: 22px;
+  background: #f8fbf8;
+  box-shadow: 0.9134015440940857px 9px 16px 0px rgba(22, 73, 57, 0.1);
+}
+.hequity {
+  color: #0e0e0e;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 158.523%;
+  opacity: 0.699999988079071;
+}
+
+.buy {
+  color: #0c0c0c;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.523%;
+  opacity: 0.6000000238418579;
+}
+.buyinput {
+  display: flex;
+  width: 74.037px;
+  padding: 13.327px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7.404px;
+  border-radius: 10.365px;
+  background: #fff;
+  margin-left: 8px;
+}
+.buyinput::placeholder {
+  color: #0c0c0c;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.523%;
+}
+
+
+/* Create a custom radio button */
+
+.byS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+  margin-top: 0px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.byS input[type="radio"]:checked + label.buy {
+  color: #118b64;
+}
+
+.byS input[type="radio"]:checked + label.sell {
+  color: #118b64;
+}
+.options input[type="radio"]:checked + label.opt22text {
+  color: #118b64;
+}
+
+.options input[type="radio"]:checked + label.opt211text {
+  color: #118b64;
+}
+
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+
+  border: 2px solid #118b64;
+  border-radius: 16px;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.byS input[type="radio"]::before {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.options input[type="radio"]::before {
+  content: "";
+  margin-top: 3.2px;
+  margin-left: 3.1px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+input[type="radio"]::before {
+  content: "";
+  display: block;
+}
+
+input[type="radio"]:checked::before {
+  background-color: #118b64;
+  border-color: #118b64;
+}
+
+/* /////////////////////end custom:"" */
+.brokelist {
+  text-align: left;
+}
+.brokname {
+  color: #101010;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.numberbrok {
+  color: #101010;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.profit {
+  color: var(--web-green, #118b64);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+.pronum {
+  color: var(--web-green, #118b64);
+  text-align: right;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.listsss ul {
+  width: 215px;
+}
+.displaycont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  vertical-align: middle;
+  margin: 14px;
+}
+.showlisttt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  vertical-align: middle;
+  margin: 14px;
+}
+
+.sell {
+  color: #252525;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10px;
+}
+.seebutton {
+  display: flex;
+  padding: 10px 37px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 13px;
+  border: 1px solid var(--web-green, #118b64);
+  background: #f8fbf8;
+}
+.seebutton button {
+  color: var(--web-green, #118b64);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.hidecont {
+  display: none;
+}
+
+.commodity select {
+  display: flex;
+  width: 183px;
+  height: 40px;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 14px;
+  background: #fff;
+  color: #000;
+  color: #0c0c0c;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.523%;
+}
+
+/* ///////////////////// end calcy//////////////F///// */
+
+.headinves {
+  padding: 3.5rem;
+}
+
+.maincontainerbox {
+  padding: 50px 50px;
+}
+
+.namecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 97.8%;
+  text-align: center;
+}
+
+.headinves h1 {
+  width: 638px;
+  height: 101px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 150%;
+
+  color: #ffffff;
+}
+.signup {
+  color: #000;
+}
+
+.headinves {
+  background-image: url("./brokagecal/Gradientbgbox5.png");
+  width: 1270px;
+  height: 440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.headinves p {
+  width: 423px;
+  height: 60px;
+  margin-top: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+
+  color: #ffffff;
+}
+
+.signupp {
+  padding: 18px 51px;
+  gap: 10px;
+  width: 179px;
+  height: 66px;
+  background: #ffffff;
+  box-shadow: 0px 0px 15.7636px #c4e2ec;
+  border-radius: 34px;
+}
+.signup span {
+  width: 77px;
+  height: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+
+  background: linear-gradient(180deg, #0b224e -140%, #01787b 93.61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  color: transparent;
+}
+
+.fbtns {
+  margin: 5px;
+  padding: 10px;
+  background-color: #118b64;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.com {
+  width: 102px;
+  height: 32px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 158.52%;
+  display: flex;
+  align-items: center;
+  color: #1c1c1c;
+}
+
+.fotterlink {
+  width: 150px;
+  height: 25px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 158.52%;
+  display: flex;
+  align-items: center;
+  color: #565656;
+}
+.fotterlink1 {
+  width: 200px;
+  height: 25px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 158.52%;
+  display: flex;
+  align-items: center;
+  color: #565656;
+}
+.fotterlink :nth-child(1) {
+  margin-top: 20px;
+}
+
+.fotterlink {
+  margin: 11px 0;
+}
+.fotterlink1 {
+  margin: 11px 0;
+}
+
+.rightjour {
+  margin-left: 25%;
+}
+.rightabout {
+  margin-left: 25%;
+}
+
+footer {
+  background: #121212;
+}
+.footer1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.titlef {
+  color: rgba(35, 172, 128, 1);
+  font-weight: 400;
+  font-size: 20px;
+}
+li,
+.text1 {
+  color: white;
+}
+
+.textfooter,
+.textfooteraction {
+  color: rgba(188, 195, 194, 1);
+  width: 560px;
+  font-size: 14px;
+}
+.footerbottom {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.footerlogcla {
+  width: 200px;
+
+  margin-left: 10px;
+}
+.socialmedia {
+  display: flex;
+}
+.socialmedia img {
+  margin-left: 20px;
+}
+.last {
+  color: #bcc4c2;
+  margin-left: 30px;
+}
+.last p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 158.52%;
+
+  color: rgba(188, 195, 194, 1);
+}
+.last2 {
+  display: flex;
+  color: rgba(188, 195, 194, 1);
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.last2 p {
+  font-size: 14px;
+  line-height: 158.52%;
+
+  color: rgba(188, 195, 194, 1);
+}

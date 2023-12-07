@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Trade Jini</title>
+
+    <link rel="stylesheet"
+        href="./app.css" />
+
+    <!-- <link rel="stylesheet" href="./Navbar.css"> -->
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.7/lottie.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="bggg"></div>
+    <section id="navbar"
+        class=" bgblack hero-content max[1440px]">
+        <nav class="flex justify-between items-center mx-24 header fixed top-0 w-[88%] max-[769px]:mx-0 navbar1 ">
+            <div class="logo">
+                <img src="./assets/Frame 1000002038.svg"
+                    alt="" />
+            </div>
+
+            <div class="items">
+                <ul class="list flex mt-4">
+                    <li class="item">
+                        <a href="../aboutpage/about.html"> About </a>
+                    </li>
+                    <li class="item">Product</li>
+                    <li class="item">Pricing</li>
+                    <li class="item flex w-full dropw">
+                        <a href="#">Media </a>
+                        <img class="mx-2"
+                            src="./assets/Stroke-1.svg"
+                            alt="" />
+                        <div class="dropdown-content2">
+                            <div class="flex flex-col p-4">
+                                <a href="#">Jiniversity</a>
+                                <a href="#">Press coverage</a>
+                                <a href="#">Events</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="item">Support</li>
+                </ul>
+            </div>
+
+            <center class="serchicon">
+                <img class="-ml10 mt-3 serchicin"
+                    src="./assets/search.svg"
+                    alt="" />
+            </center>
+            <div class="serachs2 bg- max-[1100px]:ml-0 mt-2">
+                <div class="flex items-center justify-center">
+                    <input type="text"
+                        class="bg-[#292929]"
+                        id="searchInput"
+                        placeholder="Search..." />
+                    <img class="-ml-10 mt-3"
+                        src="./assets/serch white.svg"
+                        alt="" />
+                </div>
+
+                <div class="bg-black"
+                    id="searchResults"></div>
+            </div>
+
+            <div class="login_btn mt-5">
+                <button class="loginndark -ml36 max-[1100px]:ml-0">
+                    <span class="sig2">
+                        Sign up
+                    </span>
+                </button>
+            </div>
+
+            <div class="hamburg mt-5"
+                id="hamburg">
+                <img src="./assets/hamburger.svg"
+                    alt="" />
+            </div>
+        </nav>
+        <nav class="flex justify-between items-center mx-24 header2 fixed top-0 w-[88%] max-[769px]:mx-0 navbar2">
+            <div class="logo">
+                <img src="./assets/Frame 1000001713.svg"
+                    alt="" />
+            </div>
+
+            <div class="items">
+                <ul class="list flex mt-4">
+                    <li class="itemwhite">
+                        <a href="../aboutpage/about.html"> About </a>
+                    </li>
+                    <li class="itemwhite">Product</li>
+                    <li class="itemwhite">Pricing</li>
+                    <li class="itemwhite flex w-full dropw">
+                        <a href="#">Media </a>
+                        <img class="mx-2"
+                            src="./assets/Stroke-1.svg"
+                            alt="" />
+                        <div class="dropdown-content">
+                            <div class="flex flex-col p-4">
+                                <a href="#">Jiniversity</a>
+                                <a href="#">Press coverage</a>
+                                <a href="#">Events</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="itemwhite">Support</li>
+                </ul>
+            </div>
+
+            <center class="serchicon">
+                <img class="-ml10 mt-3 serchicin"
+                    src="./assets/search.svg"
+                    alt="" />
+            </center>
+            <div class="serachs  max-[1100px]:ml-0 mt-2">
+                <div class="flex items-center justify-center">
+                    <input type="text"
+                        id="searchInput"
+                        placeholder="Search..." />
+                    <img class="-ml-10 mt-3"
+                        src="./assets/search.svg"
+                        alt="" />
+                </div>
+
+                <div class="bg-black"
+                    id="searchResults"></div>
+            </div>
+
+            <div class="login_btn mt-5">
+                <button class="loginn -ml36 max-[1100px]:ml-0">Sign up</button>
+            </div>
+
+            <div class="hamburg mt-5"
+                id="hamburg">
+                <img src="./assets/hamburger.svg"
+                    alt="" />
+            </div>
+        </nav>
+
+        <!-- </section> -->
+
+        <section id="hero"
+            class="hero">
+            <div class="img_container w-full flex justify-center items-center">
+                <h1 class="hero_title">Empowering trading community with</h1>
+            </div>
+
+            <div class="animation-container flex justify-center items- r">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <p class="-word3 word">Performance</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p class="-word3 word">Expertise</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p class="-word3 word">Transparency</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p class="-word3 word">Customer Support</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="button_signup">
+                <button class="signup mx-5">
+                    <span class="sig"> Sign up now </span>
+                </button>
+                <button class="loginnow mx-5">
+                    <span class="sigg"> Log in </span>
+                </button>
+            </div>
+            <div class="bullet h-full">
+                <div class="bullet-container">
+                    <ul class="bullet-effect">
+                        <li class="bulltes_point">Stocks</li>
+                        <li class="bulltes_point">Mutual Funds</li>
+                        <li class="bulltes_point">Equity</li>
+                        <li class="bulltes_point">IPO investment</li>
+                        <li class="bulltes_point">Commodity</li>
+                        <li class="bulltes_point">Currency</li>
+                        <li class="bulltes_point">Derivatives</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="app h-full bg-[#F8FBF8] pt-32 h-full">
+        <div class="live_app flex justify-center items-center">
+            <div class="left_img">
+                <img src="./assets/iPhone 13 Pro.png"
+                    alt="" />
+            </div>
+            <div class="right_content h-full">
+                <div class="h1">
+                    <h1>
+                        <span class="liveapp"> CubePlus is live now! </span>
+                    </h1>
+                </div>
+                <div class="pera my-8">
+
+                    <p>
+                        Experience the latest cutting-edge investment platform to monitor
+                        your portfolio, effortlessly access, and meticulously analyze
+                        stock market news from any location across the globe!
+                    </p>
+                </div>
+                <div class="download_button mt-10">
+                    <div class="w-full flex items-start justify-start">
+                        <span class="now"> Download Now </span>
+                    </div>
+
+                    <div class="buttons mt-2 flex justify-start items-start">
+                        <button class="mr-4 -ml-1">
+                            <img src="./assets/Frame 3.svg"
+                                alt="z" />
+                        </button>
+                        <button>
+                            <img src="./assets/Frame 2.svg"
+                                alt="z" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="whyChoose pt-20 max-sm:pt-20 hfull bg-[#F8FBF8] ">
+
+
+        <div class="choose flex items-center justify-center">
+            <div class="center mt-10">
+                <h1 class="whychosse">Why TRADEJINI?</h1>
+            </div>
+        </div>
+
+
+        <div class="all_cards mt-10 flex itemscenter justify-center">
+            <div class="leftconent mt-10 w-[620px] max-sm:w-full">
+                <img src="./assets/0001 1.svg"
+                    alt="" />
+            </div>
+            <div class="rightcards">
+                <div class="referand">
+
+                    <div class="rightcards">
+                        <div class="referand">
+                            <div class="one my-8">
+                                <div class="ek">1</div>
+                                <div class="mt-4">
+                                    <div class="arn">All in one platform</div>
+                                    <div class="arnpera mt-4">Experience the ability to seamlessly navigate your trading
+                                        needs within a single app. Our unwavering commitment to create cutting-edge
+                                        tools and products empowers traders, enabling them to effortlessly execute
+                                        complex orders through a unified interface.</div>
+                                </div>
+                                <div class="arrow-home">
+
+                                    Equity
+                                    <img class="arrow-img" src="https://tradejini.com/wp-content/uploads/2023/08/mdi_arrow-right-circle-outline.svg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="one">
+                                <div class="ek">2</div>
+                                <div class="mt-4">
+                                    <div class="arn">Progressive Referral Program</div>
+                                    <div class="arnpera mt-4">Unlock the exhilarating potential of trading, as we
+                                        introduce an element of excitement by empowering you to generate an additional
+                                        income stream through referrals of CubePlus to your friends and family.</div>
+                                </div>
+                                <div class="arrow-home">
+                                    <img src="https://tradejini.com/wp-content/uploads/2023/08/mdi_arrow-right-circle-outline.svg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="one my-8">
+                                <div class="ek">3</div>
+                                <div class="mt-4">
+                                    <div class="arn">Dedicated Support</div>
+                                    <div class="arnpera mt-4">We have effectively done it for the last 10+ years and we
+                                        don’t plan on stopping. Best in class client support to provide meaningful
+                                        resolutions to all queries in a time bound manner.</div>
+                                </div>
+                                <div class="arrow-home">
+                                    <img src="https://tradejini.com/wp-content/uploads/2023/08/mdi_arrow-right-circle-outline.svg"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="one">
+                                <div class="ek">4</div>
+                                <div class="mt-4">
+                                    <div class="arn">Trusted Partner</div>
+                                    <div class="arnpera mt-4">We've bootstrapped our way to the top, with no proprietary
+                                        trading, and maintained an enviable 99.9% uptime. Our pristine record of
+                                        multiple clean audits underscores our dedication to transparency, establishing
+                                        us as a trustworthy companion in your trading voyage.</div>
+                                </div>
+                                <div class="arrow-home">
+                                    <img src="https://tradejini.com/wp-content/uploads/2023/08/mdi_arrow-right-circle-outline.svg"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="one">
+                        <div class="ek">1</div>
+                        <div class="mt-4">
+                            <div class="arn">All in One Platform</div>
+                            <div class="arnpera mt-4 mb-8">
+                                Experience the ability to seamlessly navigate your trading
+                                needs within a single app. Our unwavering commitment to create
+                                cutting-edge tools and products empowers traders, enabling
+                                them to effortlessly execute complex orders through a unified
+                                interface.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="one my-8">
+                        <div class="ek">2</div>
+                        <div class="mt-4">
+                            <div class="arn">Progressive Referral Program</div>
+                            <div class="arnpera mt-4">
+                                Unlock the exhilarating potential of trading, as we introduce
+                                an element of excitement by empowering you to generate an
+                                additional income stream through referrals of CubePlus to your
+                                friends and family.
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                    <div class="one my-4">
+                        <div class="ek">3</div>
+                        <div class="mt-4">
+                            <div class="arn">Support – Round the Clock</div>
+                            <div class="arnpera mt-4">
+                                We have effectively done it for the last 10+ years and we
+                                don’t plan on stopping. Best in class client support to
+                                provide meaningful resolutions to all queries in a time bound
+                                manner.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="one">
+                        <div class="ek">4</div>
+                        <div class="mt-4">
+                            <div class="arn">Trusted Partner</div>
+                            <div class="arnpera mt-4">
+                                We've bootstrapped our way to the top, with no proprietary trading, and maintained an
+                                enviable 99.9% uptime. Our pristine record of multiple clean audits underscores our
+                                dedication to transparency, establishing us as a trustworthy companion in your trading
+                                voyage.
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ecosystem h-full pt-20 max-sm:pt-96 bg-[#fff]">
+        <div class="upprEco w-full h-full">
+            <div class="up flex items-center justify-center w-full flex-col pt-20">
+                <h1 class="headerr h-full flex items-center justify-center m5">
+                    Tradejini Ecosystem
+                </h1>
+                <div class="peraeco my-8">
+                    <p>
+                        Making trading easy through interactive and sophisticated
+                        applications. Enhance your trading experience with the all new
+                        CubePlus mobile and web application.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="viwe">
+            <div class="button_signup mb-12">
+                <button class="signupsupprtt">View all</button>
+            </div>
+        </div>
+
+        <div class="animtonimgs flex items-center justify-center">
+            <div class="relative mr-20">
+                <div class="absolute lottie"
+                    id="lottie-container"></div>
+
+                <img src="./assets/Frame 1000001955.png"
+                    alt="" />
+            </div>
+            <div class="relative">
+                <div class="absolute lottie2"
+                    id="lottie-container2"></div>
+                <img src="./assets/Frame 1000001956.png"
+                    alt="" />
+            </div>
+        </div>
+    </section>
+
+    <section class="brokrage bg-[#F8FBF8] pt-20 mt-20">
+        <div class="center w-full flex justify-center -center">
+            <div class="leftcard h-[500px] relative w-full flex justify-center pr-[15%] items-center">
+
+
+
+                <img src="./assets/Frame 1000002092.png"
+                    alt="">
+
+            </div>
+            <div class="rightbrockrage w-[70%] flex justify-center itemscenter flex-col -ml-44 max-[769px]:ml-0">
+                <div class="lowest -mt28 -ml48 max-[769px]:ml-0">
+                    Lowest Brokerage
+                </div>
+
+                <div class="peracourage">
+                    Everything you need, on a budget! Transparent costing, no hidden charges.
+                </div>
+
+                <div class="seebutton my-8 w-[74%] flex justify-start items-center">
+                    <button class="seeall">See pricing</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mutual bg-[#fff] pt-20">
+        <div class="mutualmain flex justify-center -center max-[769px]:flex-col max-[769px]:p-8">
+            <div class="rightmutual mt-16 pr-[7%]">
+                <!-- <div class="mutualanimate">
+                    <div class="hantai">
+                        <h1 class="anime">Mutual Funds</h1>
+                        <h1 class="anime">Equity</h1>
+                    </div>
+                </div> -->
+
+                <div class="typing-animation">
+                    <h1>
+                        <span id="text1"></span>
+                        <!-- <span class="cursor"></span> -->
+                    </h1>
+                </div>
+
+                <h2 class="mb-6">only a click away!</h2>
+
+                <div class="buttonsection">
+                    <button class="mutualbtn max-[769px]:my-4">Mutual funds</button>
+                    <button class="mutualbtn mx-4 max-[769px]:mx-0">Equity</button>
+                </div>
+            </div>
+            <div class="upmutual">
+                <img src="./assets/Frame 13.png"
+                    alt="" />
+            </div>
+        </div>
+    </section>
+
+    <section class="best_class bglack">
+        <div class="wrapper">
+            <div class="cardw flex-col">
+                <div class="headbest w-[88%] flex justify-start items-center pb-12 pt-8">
+                    <h1>Ahead of the curve, for many reasons</h1>
+                </div>
+                <div class="productcard1 flex justify-around items-center">
+                    <div class="leftprod  pt-12   px-5  w-[660px]  flex justify-center items-start flex-col">
+                        <h1 class="therade">By the traders, for the traders</h1>
+
+                        <button class="prodbtn my-8 flex justify-start items-center">
+                            <span> Product </span>
+                        </button>
+                    </div>
+                    <div class="rigtprod -ml-20">
+                        <img src="./assets/Component 85.png"
+                            alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="cardw">
+                <div class="productcard2  p-10 flex justify-around items-center">
+                    <div class="leftprod  pt-12 w-[660px] flex justify-center items-start flex-col flex-col ">
+                        <h1 class="therade text-[#4539A0]">
+                            Big on value, low on commissions
+                        </h1>
+
+                        <button class="prodbtn my-8">
+                            <span> Pricing </span>
+                        </button>
+                    </div>
+                    <div class="rigtprod">
+                        <img src="./assets/Component 86.svg"
+                            alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="cardw">
+                <div class="productcard4 p-10  flex justify-around items-center">
+                    <div class="leftprod  pt-8 w-[660px] flex justify-center items-start flex-col">
+                        <h1 class="therade text-[#9E2DAB]">Unparalleled support</h1>
+
+                        <button class="prodbtn my-8">
+                            <span> Support </span>
+                        </button>
+                    </div>
+                    <div class="rigtprod">
+                        <img src="./assets/Component 87.svg"
+                            alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="cardw">
+                <div class="productcard5 p-10 flex justify-around items-center">
+                    <div class="leftprod  pt-24 w-[660px] flex justify-center items-start flex-col">
+                        <h1 class="therade text-[#32631B]">
+                            10 years of commitment to client success
+                        </h1>
+
+                        <button class="prodbtn my-8">
+                            <span> About </span>
+                        </button>
+                    </div>
+                    <div class="rigtprod">
+                        <img src="./assets/Property 1=Variant5.svg"
+                            alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="jiniversity relative mt-44">
+        <div class="mainjini px-10 h-[571px]">
+            <div class="img123 absolute">
+                <img src="./assets/Frame 1000000869.svg"
+                    alt="" />
+            </div>
+            <div class="img11 absolute img22">
+                <img src="./assets/Frame 1000000869 (1).svg"
+                    alt="" />
+            </div>
+            <div class="img111 absolute img33">
+                <img src="./assets/Frame 1000000866.svg"
+                    alt="" />
+            </div>
+            <div class="img11 absolute img44">
+                <img src="./assets/Frame 1000000870.svg"
+                    alt="" />
+            </div>
+
+            <div class="mainheadjini pt-40 flex justify-center items-center flex-col">
+                <h1>Learn from Jiniversity</h1>
+
+                <p>
+                    Empowering you to make smarter financial decisions. Investor Education and financial literacy is
+                    paramount at Tradejini, and we strive hard to provide the best education in the simplest form on the
+                    most basic to complex topics.
+                </p>
+
+                <div class="button_signup mt-12">
+                    <button class="signupsupprt lack">Jiniversity</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="media pt-20 bg[#F8FBF8] h-full">
+        <!-- <div class="mediatop"> -->
+        <div class="mediatop w- flex justify-center items-center flex-col -m">
+            <div class="lowest --48">In The Media</div>
+
+
+        </div>
+
+        <div class="mediaimgs flex justify-center items-center">
+            <div class="meadiaimages flex justify-center items-center">
+                <div class="img1">
+                    <img src="./assets/moneycontrol-logo-vector 1.svg"
+                        alt="" />
+                </div>
+                <div class="img1">
+                    <img src="./assets/cnbc-ar21 1.svg"
+                        alt="" />
+                </div>
+
+                <div class="img1">
+                    <img src="./assets/ettech-logo-edited 1.svg"
+                        alt="" />
+                </div>
+                <div class="img1">
+                    <img src="./assets/Daco_5881296 1.svg"
+                        alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact h-full bg[#F8FBF8] pt-28">
+
+        <div class="contacthead pt-10 pb-0 flex justify-center -center">
+            Contact Us
+        </div>
+        <div class="maincontanc flex justify-center -center h-full p-10   ">
+
+            <div class=" radious bg-[#F8FBF8] flex justify-center -center h-full p-16 ">
+
+
+                <div class="twohead h-full ml48 relative">
+                    <div class="headingfil">
+                        <h1>Fill Out the details</h1>
+                    </div>
+
+                    <div class="imp">
+                        <p class="my-3 mt-10">
+                            Name:
+                            <input class=" bg-[#F8FBF8]"
+                                title="b"
+                                type="text" />
+                        </p>
+                        <p class="my-10 -ml-1">
+                            Phone:
+                            <input class=" ml-0 bg-[#F8FBF8] w-[280px]"
+                                title="b"
+                                type="text" />
+                        </p>
+                        <p class="my-3">
+                            Email:
+                            <input class="ml-1 bg-[#F8FBF8]"
+                                title="b"
+                                type="text" />
+                        </p>
+
+                        <div class="button_signup mt-16">
+                            <button class="signupsupprt t-black">Submit</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+
+                    <div class="borf mx-20"></div>
+                    <div class="m-4">
+                        or
+                    </div>
+                    <div class="borf mx-20"></div>
+                </div>
+
+
+
+                <div class="reachout h-full relative">
+                    <h1>Reach out to us</h1>
+
+                    <p class="my-8">Call Us: 080-40204020</p>
+                    <p class="my-8">Call and Trade: 080-2608660</p>
+                    <p class="my-8">Mail Us: help@tradejini.com</p>
+
+                    <div class="button_signup mt-[5.70rem]">
+                        <button class="signupsu">
+                            <span>
+
+                                Support
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="invest bg-[#F8FBF8] pt-20">
+        <div class="maininvest flex justify-center items-center">
+            <div class="headinves p-28 flex max-sm:p-4 justify-around items-center flexol">
+                <div class="flex justify-center items- flex-col relative">
+                    <h1>Start investing now!</h1>
+                    <p class="relative">
+                        Account opening in less than
+
+                        <span style="font-weight:600;">
+
+                            5
+                        </span>
+                        <!-- <div class="relative"> -->
+                        <span id="word1"
+                            style="position: absolute; top: 24%; left: 84%; transform: translate(-50%, -50%); opacity: 0;font-weight:600;">minutes</span>
+                        <span id="word2"
+                            style="position: absolute; top: 24%; left: 81%; transform: translate(-50%, -50%); opacity: 0; font-weight:600;">steps</span>
+
+                        <!-- </div> -->
+                    </p>
+
+
+
+
+                </div>
+
+                <div class="button_signup ml-36">
+                    <button class="signupp text-black">
+                        <span> Sign up </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="downlinks">
+        <div class="mainlinks flex items-center justify-around p-16">
+            <div class="company">
+                <h3 class="com">Company</h3>
+                <ul class="fle pt-3">
+                    <li class="fotterlink">About us</li>
+                    <li class="fotterlink">Products</li>
+                    <li class="fotterlink">Pricing</li>
+                    <li class="fotterlink">Career</li>
+                </ul>
+            </div>
+            <div class="company">
+                <h3 class="com">Support</h3>
+                <ul class="fle pt-3">
+                    <li class="fotterlink">Support Portal</li>
+                    <li class="fotterlink">Contact Us</li>
+                    <li class="fotterlink">Investors Corner</li>
+                    <li class="fotterlink">Partner</li>
+                </ul>
+            </div>
+            <div class="company">
+                <h3 class="com">Tools</h3>
+                <ul class="fle pt-3">
+                    <li class="fotterlink1">Brokerage Calculator</li>
+                    <li class="fotterlink1">Margin Calculator</li>
+                    <li class="fotterlink1">Referral Calculator</li>
+                    <li class="fotterlink1"></li>
+                    <!-- <li class="fotterlink">Career</li> -->
+                </ul>
+            </div>
+            <div class="company">
+                <h3 class="com">Downloads</h3>
+                <ul class="fle pt-3">
+                    <li class="fotterlink">Forms</li>
+                    <li class="fotterlink">Software</li>
+                    <li class="fotterlink">Charges</li>
+                    <li class="fotterlink">Holidays</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="f2 ">
+        <div class="footer2 p-6">
+            <div class="footerlog flex my-10">
+                <img src="./assets/Frame 1000002038.svg"
+                    alt="logo" />
+            </div>
+
+
+
+
+            <div class="footertable">
+                <div class="maintable">
+                    <table class="table">
+                        <tr>
+                            <th class="borderer box1 w-[186px]">Stock Broker Name</th>
+                            <th class="box2 w-[199px]">Registration Number</th>
+                            <th class="box3 w-[186px]">Registered Address</th>
+                            <th class="box4 w-[189px]">Corporate Address</th>
+                            <th class="boded box5 w-[220px]">Branch Address (if any)</th>
+                            <th class="boded box6 w-[187px]">Contact Number</th>
+                            <th class="boded box7 w-[149px]">Email id</th>
+                            <!-- <th>Working Hours</th> -->
+                        </tr>
+                        <tr>
+                            <td>Tradejini Financial Services Pvt Ltd</td>
+                            <td>SEBI REGISTRATION NO.: INZ000160938
+                                (NSE: CM-FO-CD | BSE: CM-FO-CD | MCX: FO | MSEI: CM-FO-CD)
+                                CDSL Depository Participant: IN-DP-470-2020
+                                Mutual Fund ARN : 87156</td>
+                            <td>Suvas,No 4, Shankarmutt Road, 3rd Cross, Shankarpuram, Bangalore – 560004</td>
+                            <td>Vasavi Square, 2nd Floor, No.75/757, 10th Main Road, 4th Block, Jayanagar, Bangalore –
+                                560011.</td>
+                            <td class="bordered_las">223, Vijay Enclave, 2nd Floor, TV Swamy Road East, R.S. Puram,
+                                Coimbatore, Tamil Nadu – 641002. Contact No : +91-422-4357170</td>
+                            <td class="bordered_las">+91-80-40204020</td>
+                            <td class="bordered_las">help@tradejini.com</td>
+
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+
+            <div class="last">
+                <div class="flex justify-between itemscenter w-[93%]">
+
+
+                    <span class="mb-4">
+                        More: Policy and Procedures | PMLA | Data Classification and
+                        protection | Sample Contract Note
+                    </span>
+                    <div class="socialmedia flex items-center -center -ml-32">
+                        <h1 class="mt2 max-sm:text-xl">Follow us on</h1>
+                        <img src="./assets/tweet.svg"
+                            alt="">
+                        <img src="./assets/youtube.svg"
+                            alt="">
+                        <img src="./assets/fb.svg"
+                            alt="">
+                        <img src="./assets/linked.svg"
+                            alt="">
+                    </div>
+                </div>
+
+                <div class="textfooteraction">
+                    <div class="mb-5 w-[70%]">
+                        Please ensure you carefully read the Risk Disclosure
+                        Documents as prescribed by SEBI. For any complaints
+                        email at complaints@tradejini.com
+                    </div>
+
+                    <div class="tools mb-5 flex max-">
+                        <button class="fbtns">BSE</button>
+                        <button class="fbtns">NSE</button>
+                        <button class="fbtns">MSEI </button>
+                        <button class="fbtns">MCX </button>
+                        <button class="fbtns">CDSL </button>
+                        <button class="fbtns">India INX </button>
+                    </div>
+
+
+                </div>
+
+
+                <div class="attention my-7">
+                    <span>Attention Investors</span>
+
+                    <p class="peraaatern">
+                        "The securities are quoted as an example and not as a recommendation. Investments in securities
+                        market are subject to market risks, read all the related documents carefully before investing
+                    </p>
+
+                    <p>Prevent Unauthorized Transactions in your trading/demat account Update your Mobile Number/Email
+                        IDs
+                        with your Stock brokers/Depository Participant.Receive alerts/information of your transactions
+                        on
+                        your Registered Mobile/Email for all debit and other important transactions in your
+                        trading/demat
+                        account directly from Exchange/CDSL on the same day”.</p>
+                    <p>“KYC is one time exercise while dealing in securities markets – once KYC is done through a SEBI
+                        registered intermediary (broker, DP, Mutual Fund etc.),you need not undergo the same process
+                        again
+                        when you approach another intermediary.”</p>
+                    <p>No need to issue cheques by investors while subscribing to IPO.Just write the bank account number
+                        and
+                        sign in the application form to authorise your bank to make payment in case of allotment.No
+                        worry
+                        for refund as the money remains in investor’s account.</p>
+                    <p>This is to inform you as per Rules, Regulations and Bye-laws of Multi Commodity Exchange of India
+                        Ltd
+                        (MCX),that we do clientbased trading and proprietary trading.</p>
+                    <p>Procedure to file a complaint on SCORES (Easy & quick). Register on SCORES portal and have the
+                        mandatory details for filing complaints on SCORES (Name, PAN, Address, Mobile Number and E-mail
+                        ID).
+                        Benefits: Effective Communication and Speedy redressal of the grievances.</p>
+                    <p>Stock Brokers can accept securities as margin from clients only by way of pledge in the
+                        depository
+                        system w.e.f. September 01, 2020 Update your email id and mobile number with your stock broker /
+                        depository participant and receive OTP directly from depository on your email id and/or mobile
+                        number to create pledgeCheck your securities / MF / bonds in the consolidated account statement
+                        issued by NSDL/CDSL every month.</p>
+                </div>
+
+                <div class="last2 pr-16 pl-0 max-sm:pr-0">
+                    <span>
+                        Made with <span class="mx-0"
+                            style="color: red">&#10084;</span> in
+                        Bharath @ 2023 Tradejini | All Rights Reserved
+                    </span>
+                    <span>
+                        <span>
+
+                            Disclaimer
+                        </span>
+                        |
+                        <span>
+
+                            Copyright Policy
+                        </span>
+                        |
+                        <span>
+
+                            Fraud Prevention
+                        </span>
+                        |
+                        <span>
+                            Privacy Policy
+
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./home.js"></script>
+    <script src="../testimonials/test.js"></script>
+</body>
+
+</html>
